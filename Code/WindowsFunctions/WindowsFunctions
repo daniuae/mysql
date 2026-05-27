@@ -1,1 +1,127 @@
+38. SQL Scripts
+
+/**************WINDOWS FUNCTION COMPLETE GUIDE ADVENTUREWORKS**********************************************/
+/*
+			Function		Purpose
+			ROW_NUMBER()	Unique numbering
+			RANK()			Ranking with gaps
+			DENSE_RANK()	Ranking without gaps
+			LAG()			Previous row
+			LEAD()			Next row
+			NTILE()			Divide groups
+			FIRST_VALUE()	First value
+			LAST_VALUE()	Last value
+*/
+/************************************************************/
+/*
+			Real-Time 			Business Use Cases
+			Scenario				Function
+			Top N employees			ROW_NUMBER
+			Leaderboard ranking		RANK
+			Sales trend comparison	LAG
+			Forecast comparison		LEAD
+			Running totals			SUM OVER
+			Department analytics	PARTITION BY
+			Salary bands			NTILE
+/*
+/************************************************************/
+
+/*
+ROW_NUMBER() is a SQL window function that assigns a unique sequential integer (starting from 1) to each row within a result set or partition.  
+Unlike ranking functions like RANK() or DENSE_RANK(), it does not skip numbers or assign identical values to ties; 
+every row receives a distinct number based on the specified order. 
+
+Syntax and Components
+The function requires an OVER clause with an ORDER BY clause, which is mandatory to define the logical sequence for numbering:
+
+ROW_NUMBER() OVER (
+    [PARTITION BY column_list]
+    ORDER BY sort_column [ASC | DESC]
+)
+
+PARTITION BY (Optional): Divides the result set into groups. The row counter resets to 1 for each new partition. 
+If omitted, the entire result set is treated as a single partition. 
+ORDER BY (Mandatory): Determines the order in which row numbers are assigned within each partition. 
+Common Use Cases
+Pagination: Filtering results by row number range (e.g., WHERE row_num > 10 AND row_num <= 20) to display specific pages of data. 
+Top-N Queries: Identifying the top N records per group (e.g., highest salary per department) by filtering where row_num = 1. 
+Deduplication: Removing duplicate records by assigning numbers to duplicates and keeping only the row with row_num = 1. 
+
+*/
+/*	STEP 1	*/
+CREATE TABLE sales (
+    id SERIAL PRIMARY KEY,
+    employee TEXT,
+    department TEXT,
+    sale_amount INT,
+    sale_date DATE
+);
+
+/*	STEP 2	*/
+INSERT INTO sales (employee, department, sale_amount, sale_date) VALUES 
+('Sean', 'Electronics', 300, '2023-01-01'),
+('Anna', 'Electronics', 500, '2023-01-03'),
+('Lubo', 'Electronics', 400, '2023-01-05'),
+('David', 'Furniture', 700, '2023-01-02'),
+('Eve', 'Furniture', 600, '2023-01-06'),
+('Frank', 'Furniture', 750, '2023-01-07'),
+('Grace', 'Clothing', 200, '2023-01-04'),
+('Heidi', 'Clothing', 350, '2023-01-08'),
+('Ivan', 'Clothing', 150, '2023-01-09'),
+('Judy', 'Electronics', 550, '2023-01-10'),
+('Karl', 'Furniture', 800, '2023-01-11'),
+('Leo', 'Furniture', 720, '2023-01-12'),
+('Mallory', 'Clothing', 280, '2023-01-13'),
+('Nina', 'Clothing', 310, '2023-01-14'),
+('Oscar', 'Electronics', 250, '2023-01-15'),
+('Peggy', 'Furniture', 710, '2023-01-16'),
+('Quinn', 'Furniture', 705, '2023-01-17'),
+('Ruth', 'Clothing', 360, '2023-01-18'),
+('Sam', 'Electronics', 460, '2023-01-19'),
+('Trudy', 'Clothing', 400, '2023-01-20');
+
+/*	STEP 3	*/
+select * from sales;
+
+
+/*	STEP 4	*/
+
+SELECT 
+	ROW_NUMBER() OVER (PARTITION BY department ORDER BY sale_amount DESC) AS row_num,
+	employee, 
+	department, 
+	sale_amount
+FROM sales;
+
+/*	STEP 5	*/
+
+SELECT 
+	ROW_NUMBER() OVER (PARTITION BY department ORDER BY sale_amount DESC) AS row_num,
+    RANK() OVER (PARTITION BY department ORDER BY sale_amount DESC) AS rank,
+    DENSE_RANK() OVER (PARTITION BY department ORDER BY sale_amount DESC) AS dense_rank,
+	employee, 
+	department, 
+	sale_amount
+FROM sales;
+
+/*	STEP 6	*/
+
+SELECT employee, sale_amount,
+       NTILE(3) OVER (ORDER BY sale_amount) AS quartile
+FROM sales;
+
+/*	STEP 7	*/
+
+SELECT employee, sale_amount,
+       LAG(sale_amount) OVER (ORDER BY sale_date) AS prev_sale,
+       LEAD(sale_amount) OVER (ORDER BY sale_date) AS next_sale
+FROM sales;
+
+/*	STEP 8	*/
+
+SELECT employee, department, sale_amount,
+       FIRST_VALUE(sale_amount) OVER (PARTITION BY department ORDER BY sale_date) AS first_sale,
+       LAST_VALUE(sale_amount) OVER (PARTITION BY department ORDER BY sale_date ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) 
+	   AS last_sale
+FROM sales;
 
