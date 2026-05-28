@@ -200,3 +200,209 @@ INSERT INTO order_details VALUES
 | 1           | Arun Kumar    | 104000       |
 +-------------+---------------+--------------+
 */
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   SOLUTION 1
+   TOP 3 CUSTOMERS BY TOTAL SPENDING
+   ========================================================= */
+
+SELECT
+    c.customer_id,
+    c.customer_name,
+    SUM(p.price * od.quantity) AS total_amount
+FROM customers c
+JOIN orders o
+    ON c.customer_id = o.customer_id
+JOIN order_details od
+    ON o.order_id = od.order_id
+JOIN products p
+    ON od.product_id = p.product_id
+GROUP BY
+    c.customer_id,
+    c.customer_name
+ORDER BY total_amount DESC
+LIMIT 3;
+
+
+/*
+EXPLANATION:
+1. JOIN combines all related tables.
+2. SUM() calculates total spending.
+3. GROUP BY creates customer-wise summary.
+4. ORDER BY sorts highest spender first.
+5. LIMIT 3 returns top 3 customers.
+*/
+
+
+
+/* =========================================================
+   SOLUTION 2
+   CUSTOMERS SPENDING ABOVE AVERAGE
+   ========================================================= */
+
+SELECT
+    c.customer_id,
+    c.customer_name,
+    SUM(p.price * od.quantity) AS total_amount
+FROM customers c
+JOIN orders o
+    ON c.customer_id = o.customer_id
+JOIN order_details od
+    ON o.order_id = od.order_id
+JOIN products p
+    ON od.product_id = p.product_id
+GROUP BY
+    c.customer_id,
+    c.customer_name
+HAVING SUM(p.price * od.quantity) >
+(
+    SELECT AVG(customer_total)
+    FROM
+    (
+        SELECT
+            SUM(p.price * od.quantity) AS customer_total
+        FROM orders o
+        JOIN order_details od
+            ON o.order_id = od.order_id
+        JOIN products p
+            ON od.product_id = p.product_id
+        GROUP BY o.customer_id
+    ) avg_table
+);
+
+
+/*
+EXPLANATION:
+1. Inner subquery calculates each customer's spending.
+2. Outer AVG() finds average spending.
+3. HAVING filters customers greater than average.
+4. HAVING is used because aggregate function is involved.
+*/
+
+
+
+/* =========================================================
+   SOLUTION 3
+   LATEST ORDER FOR EACH CUSTOMER
+   ========================================================= */
+
+SELECT
+    customer_id,
+    customer_name,
+    order_id,
+    order_date
+FROM
+(
+    SELECT
+        c.customer_id,
+        c.customer_name,
+        o.order_id,
+        o.order_date,
+        ROW_NUMBER() OVER
+        (
+            PARTITION BY c.customer_id
+            ORDER BY o.order_date DESC
+        ) AS rn
+    FROM customers c
+    JOIN orders o
+        ON c.customer_id = o.customer_id
+) x
+WHERE rn = 1;
+
+
+/*
+EXPLANATION:
+1. ROW_NUMBER() gives ranking inside each customer group.
+2. PARTITION BY resets numbering for each customer.
+3. ORDER BY DESC gives latest order rank = 1.
+4. Outer query filters only latest order.
+*/
+
+
+
+/* =========================================================
+   SOLUTION 4
+   CATEGORY-WISE SALES
+   ========================================================= */
+
+SELECT
+    p.category,
+    SUM(p.price * od.quantity) AS total_sales
+FROM products p
+JOIN order_details od
+    ON p.product_id = od.product_id
+JOIN orders o
+    ON od.order_id = o.order_id
+GROUP BY p.category
+ORDER BY total_sales DESC;
+
+
+/*
+EXPLANATION:
+1. JOIN connects products and order tables.
+2. SUM() calculates category sales.
+3. GROUP BY creates category summary.
+4. ORDER BY sorts highest sales category first.
+*/
+
+
+
+/* =========================================================
+   SOLUTION 5
+   SECOND HIGHEST SPENDING CUSTOMER
+   ========================================================= */
+
+WITH customer_sales AS
+(
+    SELECT
+        c.customer_id,
+        c.customer_name,
+        SUM(p.price * od.quantity) AS total_amount
+    FROM customers c
+    JOIN orders o
+        ON c.customer_id = o.customer_id
+    JOIN order_details od
+        ON o.order_id = od.order_id
+    JOIN products p
+        ON od.product_id = p.product_id
+    GROUP BY
+        c.customer_id,
+        c.customer_name
+),
+ranked_sales AS
+(
+    SELECT *,
+           DENSE_RANK() OVER
+           (
+               ORDER BY total_amount DESC
+           ) AS ranking
+    FROM customer_sales
+)
+
+SELECT
+    customer_id,
+    customer_name,
+    total_amount
+FROM ranked_sales
+WHERE ranking = 2;
+
+
+/*
+EXPLANATION:
+1. First CTE calculates customer sales.
+2. DENSE_RANK() ranks spending amounts.
+3. Highest spender gets rank 1.
+4. Second highest gets rank 2.
+5. Final query filters rank = 2.
+*/
