@@ -1,4 +1,17 @@
-(
+1) Create sandbox & seed data
+
+
+What & Why
+
+Work in a clean database so your tests don’t clash with other objects.
+
+Run
+
+CREATE DATABASE IF NOT EXISTS company_hierarchy;
+USE company_hierarchy;
+
+DROP TABLE IF EXISTS employees;
+CREATE TABLE employees (
   emp_id     INT PRIMARY KEY,
   emp_name   VARCHAR(100) NOT NULL,
   designation VARCHAR(50),
