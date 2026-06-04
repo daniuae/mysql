@@ -1,1 +1,287 @@
-Sample_Question
+Question 1
+List categories where the average price of products is higher than ₹10,000
+Assumed Table
+Products
+---------
+product_id
+product_name
+category
+price
+Solution
+SELECT
+   category,
+   AVG(price) AS avg_price
+FROM Products
+GROUP BY category
+HAVING AVG(price) > 10000;
+
+Explanation
+Step 1
+Group products by category.
+GROUP BY category
+Example:
+Category
+Prices
+Laptop
+50000, 60000
+Mobile
+12000, 15000
+Accessories
+500, 1000
+
+
+Step 2
+Calculate average price.
+AVG(price)
+Result:
+Category
+Avg Price
+Laptop
+55000
+Mobile
+13500
+Accessories
+750
+
+
+Step 3
+Filter categories whose average exceeds ₹10,000.
+HAVING AVG(price) > 10000
+Output:
+Category
+Laptop
+Mobile
+
+
+Question 2
+Find products with the highest margin (Selling Price − Cost Price) in each category
+
+Assumed Table
+Products
+---------
+product_id
+product_name
+category
+cost_price
+selling_price
+
+Solution using Window Function
+SELECT
+   product_name,
+   category,
+   margin
+FROM
+(
+   SELECT
+       product_name,
+       category,
+       selling_price - cost_price AS margin,
+       ROW_NUMBER() OVER
+       (
+           PARTITION BY category
+           ORDER BY selling_price - cost_price DESC
+       ) AS rn
+   FROM Products
+) x
+WHERE rn = 1;
+
+Explanation
+Margin Calculation
+selling_price - cost_price
+Example:
+Product
+Category
+Cost
+Selling
+Margin
+Dell
+Laptop
+40000
+50000
+10000
+HP
+Laptop
+45000
+60000
+15000
+Lenovo
+Laptop
+42000
+52000
+10000
+
+
+Ranking within each category
+PARTITION BY category
+Creates separate ranking for:
+Laptop
+Mobile
+TV
+
+Sort highest margin first
+ORDER BY margin DESC
+
+Pick Rank 1
+WHERE rn = 1
+Result:
+Category
+Product
+Margin
+Laptop
+HP
+15000
+Mobile
+Samsung
+5000
+TV
+Sony
+10000
+
+
+Question 3
+Robinhood Trading System
+Retrieve the top 3 cities having the highest number of completed trade orders. 
+
+Tables
+trades
+Column
+order_id
+user_id
+quantity
+status
+date
+price
+
+users
+Column
+user_id
+city
+email
+signup_date
+
+
+Solution
+SELECT
+   u.city,
+   COUNT(*) AS total_orders
+FROM trades t
+INNER JOIN users u
+   ON t.user_id = u.user_id
+WHERE t.status = 'Completed'
+GROUP BY u.city
+ORDER BY total_orders DESC
+LIMIT 3;
+
+Explanation
+Step 1
+Join trades and users.
+INNER JOIN users u
+ON t.user_id = u.user_id
+Result:
+order_id
+user_id
+city
+100102
+111
+San Francisco
+100259
+148
+Boston
+100264
+148
+Boston
+
+
+Step 2
+Consider only completed trades.
+WHERE status = 'Completed'
+Removes:
+100101 (Cancelled)
+
+Step 3
+Group by city.
+GROUP BY city
+
+Step 4
+Count completed orders.
+COUNT(*)
+Counts:
+City
+Orders
+San Francisco
+3
+Boston
+2
+Denver
+1
+
+
+Step 5
+Sort descending.
+ORDER BY total_orders DESC
+
+Step 6
+Take top 3.
+LIMIT 3
+
+Verification Using Given Data
+Completed Orders:
+Order
+User
+100102
+111
+100259
+148
+100264
+148
+100305
+300
+100400
+178
+100565
+265
+
+Mapping Users to Cities:
+User
+City
+111
+San Francisco
+148
+Boston
+178
+San Francisco
+265
+Denver
+300
+San Francisco
+
+Counting:
+San Francisco
+100102
+100305
+100400
+Total = 3
+Boston
+100259
+100264
+Total = 2
+Denver
+100565
+Total = 1
+Output:
+city            total_orders
+--------------  ------------
+San Francisco   3
+Boston          2
+Denver          1
+This exactly matches the expected output shown in the PDF. 
+
+Interview Follow-up Questions You May Be Asked
+Why use HAVING instead of WHERE with aggregate functions?
+Difference between ROW_NUMBER(), RANK(), and DENSE_RANK()?
+What if two products have the same highest margin?
+Difference between COUNT(*) and COUNT(column)?
+How would you find the top 3 cities using DENSE_RANK() instead of LIMIT?
+How would you optimize the Robinhood query for millions of trade records?
+These are common SQL interview follow-ups after such questions.
+
