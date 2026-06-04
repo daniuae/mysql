@@ -1,0 +1,1001 @@
+EMPLOYEE_ID,FIRST_NAME,LAST_NAME,DEPARTMENT,LOCATION,SALARY,JOIN_DATE
+1,Austin,Harper,IT,Austin,55185.8,2025-08-14
+2,Kyle,Buckley,Finance,Denver,104373.75,2019-05-31
+3,Amanda,Clements,Marketing,Austin,45099.12,2025-12-25
+4,Joshua,Townsend,Sales,Seattle,111980.25,2018-01-11
+5,Lisa,Hughes,Sales,Austin,113224.0,2023-02-15
+6,John,Vaughn,Admin,Seattle,120771.48,2022-03-12
+7,Theodore,Kirby,Finance,Austin,124511.21,2025-05-10
+8,Amanda,Welch,Operations,New York,47383.03,2019-05-19
+9,Brittany,Henry,Admin,Seattle,99571.93,2025-05-26
+10,Luis,King,Admin,Boston,148953.91,2020-01-10
+11,Joshua,Soto,Admin,Austin,63160.76,2020-03-04
+12,Leslie,Arellano,Finance,Boston,64787.77,2020-07-28
+13,Clayton,Roberts,Finance,Seattle,95099.85,2018-11-03
+14,William,Evans,IT,Chicago,44054.35,2023-04-16
+15,Edwin,Miller,Marketing,New York,42532.55,2021-06-18
+16,Chase,Combs,Finance,Boston,138882.56,2018-01-16
+17,James,Jackson,HR,Chicago,90338.19,2022-04-12
+18,Amy,Watson,Sales,Boston,61184.32,2021-08-22
+19,Susan,Roman,Marketing,Chicago,93589.22,2020-10-10
+20,Elijah,Lopez,Sales,Boston,89732.33,2024-02-19
+21,Scott,Swanson,Finance,New York,53142.02,2023-02-10
+22,Gloria,Grant,Sales,Austin,140252.18,2019-09-12
+23,Jay,Martinez,Operations,San Francisco,87213.12,2026-03-31
+24,Wesley,Moore,IT,Denver,136782.77,2017-01-19
+25,Lisa,Kelley,Sales,Denver,137959.03,2023-10-04
+26,Margaret,Lane,Operations,Boston,135480.97,2023-06-02
+27,Kathy,Santiago,Marketing,Boston,119396.16,2025-12-02
+28,David,Mcdaniel,Marketing,Boston,92279.75,2016-11-14
+29,Andrew,Ferguson,Admin,Chicago,99869.74,2021-01-22
+30,Cory,Walker,Finance,Boston,93733.7,2023-10-01
+31,Donna,Patel,IT,Seattle,120909.41,2018-12-03
+32,Morgan,Barber,Operations,San Francisco,85380.48,2020-09-28
+33,Rachel,Moore,Operations,Chicago,83240.02,2022-09-15
+34,Amy,Davis,Sales,Denver,49031.42,2017-05-07
+35,Savannah,Parsons,HR,Austin,63469.94,2024-04-19
+36,Laura,Nguyen,Sales,Denver,71372.2,2016-11-24
+37,Zoe,Hunter,Admin,Austin,129182.33,2018-04-10
+38,Cynthia,Clark,IT,Denver,41759.02,2021-12-28
+39,Jessica,Preston,HR,Chicago,118698.24,2016-12-26
+40,Daniel,Knight,Admin,Seattle,59936.69,2018-06-21
+41,Scott,Cox,HR,Austin,135008.97,2022-05-13
+42,Patricia,Martin,Finance,New York,136996.83,2023-02-16
+43,Steven,Harding,IT,Austin,76172.32,2022-05-13
+44,Patrick,Clark,Operations,New York,117441.89,2017-02-03
+45,Lori,Morgan,HR,San Francisco,89999.74,2020-08-12
+46,Mary,Hurst,Marketing,Austin,57803.22,2018-09-13
+47,Kathy,Thomas,IT,Austin,139958.41,2024-02-17
+48,Anne,Burns,Finance,Boston,77822.03,2026-04-18
+49,Andrew,Park,Finance,San Francisco,57380.84,2021-03-31
+50,Sharon,Wolf,IT,Austin,142547.17,2021-07-06
+51,William,Bryant,Finance,New York,141488.6,2019-12-28
+52,Dawn,Brown,Sales,San Francisco,49866.98,2024-06-17
+53,Erica,Owens,Admin,Seattle,146907.41,2018-12-02
+54,Amber,Smith,Marketing,New York,129952.88,2020-05-30
+55,Charles,Hurley,Operations,New York,143910.08,2018-09-10
+56,John,Kelly,Admin,Chicago,106507.31,2024-11-28
+57,Charles,Nguyen,HR,Boston,47406.73,2019-12-19
+58,Alexis,Gilbert,Finance,Boston,69462.38,2020-07-02
+59,Martin,Blackwell,HR,Denver,146145.86,2020-08-06
+60,Deborah,Nelson,Operations,Seattle,79471.16,2020-09-03
+61,Andrew,Shields,Operations,New York,68311.7,2019-11-04
+62,Sarah,Graham,IT,Boston,73373.42,2019-07-25
+63,Jasmine,Ware,Marketing,Chicago,134537.85,2025-07-19
+64,David,Tran,HR,New York,134404.85,2018-04-16
+65,Daniel,Graves,Finance,Boston,79121.62,2022-04-11
+66,Jessica,Robinson,Admin,New York,127380.2,2023-08-19
+67,Erika,Fritz,Sales,New York,115283.87,2023-08-23
+68,Alisha,Best,IT,Austin,62197.62,2019-07-17
+69,Mark,Hayden,Sales,Boston,140682.92,2019-09-19
+70,Amber,Collins,Sales,Seattle,90934.8,2022-10-22
+71,Jeffrey,Brewer,Marketing,Denver,124558.54,2017-10-11
+72,Charles,Taylor,Marketing,Chicago,69274.04,2019-06-20
+73,Nicole,Shepherd,Marketing,Denver,143010.11,2025-04-03
+74,Frank,Smith,Sales,Austin,138206.59,2022-06-14
+75,Kyle,Gilmore,Marketing,San Francisco,105411.07,2023-04-21
+76,David,Jones,Finance,Denver,148866.35,2024-06-26
+77,Douglas,Campbell,Marketing,New York,147969.43,2025-12-31
+78,Amanda,Griffin,Admin,Boston,135468.55,2018-03-13
+79,Marcus,Martin,Marketing,San Francisco,42679.78,2019-09-26
+80,Sarah,Murphy,Operations,Austin,147397.5,2017-02-19
+81,Luke,Delacruz,Operations,Seattle,117185.18,2019-06-04
+82,Shawn,Baldwin,HR,Seattle,70308.87,2018-08-17
+83,Corey,Newman,HR,Chicago,80644.66,2024-01-10
+84,Jenna,Carlson,IT,San Francisco,64935.68,2023-04-02
+85,Emily,Brown,Sales,Denver,124755.87,2018-06-16
+86,Jessica,Parks,Finance,Denver,44475.72,2018-10-26
+87,Micheal,Brock,Admin,Chicago,45567.85,2017-06-04
+88,Brittany,Edwards,IT,San Francisco,41401.09,2025-01-17
+89,Lisa,Jacobs,Marketing,New York,101845.12,2026-03-08
+90,Kevin,Avila,IT,Boston,74196.23,2016-08-25
+91,Heidi,Miller,Operations,New York,124349.1,2018-02-09
+92,Stephanie,Martin,Marketing,Chicago,75080.76,2023-03-22
+93,Ronald,Cook,HR,Boston,90028.41,2018-11-13
+94,Allison,Johnson,Finance,Boston,72703.73,2024-12-07
+95,Beth,Rivera,Finance,Austin,113228.09,2026-04-30
+96,Thomas,Gardner,HR,Chicago,108306.97,2019-12-06
+97,Theresa,Beck,Operations,Seattle,57078.69,2019-07-08
+98,Brian,Jenkins,Finance,New York,91663.33,2020-05-01
+99,Mark,Lara,Finance,Denver,62398.72,2025-07-13
+100,Catherine,Mays,Sales,Denver,115012.47,2019-11-11
+101,Eric,Elliott,Finance,New York,49177.27,2016-10-10
+102,Paige,Williams,Marketing,New York,139644.72,2020-04-14
+103,Tracy,Harvey,Operations,Boston,117264.96,2023-04-24
+104,Darrell,Henderson,HR,Chicago,96323.27,2018-02-10
+105,Karen,Hendrix,Finance,New York,116363.13,2019-03-19
+106,Jessica,Smith,Finance,San Francisco,141848.07,2017-04-13
+107,Michael,Ray,IT,Seattle,75401.43,2017-05-17
+108,Lori,Gibson,Operations,Denver,46445.29,2017-06-15
+109,William,Ortiz,HR,Boston,103958.11,2017-08-10
+110,Molly,Marsh,HR,San Francisco,78134.64,2020-09-26
+111,Christian,Glass,IT,Seattle,136371.58,2018-02-16
+112,Andrew,Hansen,IT,Austin,116463.08,2025-04-16
+113,Christine,Reyes,Sales,Austin,125188.74,2022-04-28
+114,Edward,Long,HR,New York,118559.86,2017-05-12
+115,Kent,Weaver,Admin,Boston,134798.39,2022-11-16
+116,Rachel,Carpenter,HR,Denver,144615.16,2020-04-17
+117,David,Cook,Marketing,Seattle,129039.68,2023-05-17
+118,Francisco,Marquez,Marketing,Austin,147337.18,2016-08-09
+119,Joel,Valencia,Marketing,Austin,126126.99,2021-02-27
+120,Kathryn,Patterson,Finance,Boston,97683.24,2018-07-31
+121,John,Farrell,HR,Boston,53289.73,2016-07-11
+122,Sharon,Rodriguez,Finance,Denver,117752.56,2024-09-21
+123,Rachel,Torres,HR,Boston,101329.38,2020-12-17
+124,Evan,Wilkins,Admin,San Francisco,126432.23,2017-05-17
+125,John,Jackson,Marketing,San Francisco,89957.91,2021-05-12
+126,Ashley,Ponce,Sales,New York,116787.24,2016-12-23
+127,Donald,Cook,HR,Chicago,142067.56,2024-12-05
+128,Maria,Stephens,Admin,Chicago,70221.32,2018-09-19
+129,Jason,Rios,Marketing,Denver,147466.27,2019-11-20
+130,Jacqueline,Downs,Finance,Boston,140052.85,2023-07-22
+131,Stacey,Williams,Sales,Seattle,40278.02,2020-01-03
+132,Lucas,Mckee,Operations,Chicago,100705.71,2017-10-16
+133,Jason,Cabrera,Marketing,San Francisco,90066.08,2016-07-25
+134,Anthony,Walker,Operations,Chicago,115910.07,2026-03-30
+135,Patrick,Lee,HR,Seattle,99861.6,2023-02-27
+136,Sharon,Walsh,Operations,Denver,107654.25,2019-03-26
+137,Jesse,Jordan,Operations,Austin,131231.6,2021-06-28
+138,Melissa,Norton,Finance,Seattle,107904.7,2020-08-10
+139,Amber,Schwartz,Marketing,New York,88307.69,2016-07-14
+140,Kathryn,Flores,Finance,New York,47151.23,2026-01-17
+141,Jason,Wright,Marketing,New York,78942.96,2022-06-29
+142,Brian,Dunlap,Sales,New York,147331.17,2021-10-18
+143,Mary,Bennett,Admin,Seattle,67783.67,2018-12-10
+144,Tim,Cortez,HR,Austin,143345.57,2023-07-14
+145,Suzanne,Mcdonald,Marketing,Boston,126854.82,2025-08-16
+146,David,Romero,IT,New York,86492.98,2018-12-05
+147,Gregory,Coleman,Finance,San Francisco,60214.67,2018-03-12
+148,Elizabeth,Walker,Operations,Seattle,59725.5,2025-06-15
+149,Anna,Cabrera,IT,Chicago,132242.89,2021-03-12
+150,Sara,Brown,Finance,Boston,105479.6,2018-05-24
+151,Gabriel,Whitehead,HR,Chicago,68828.61,2018-10-17
+152,Jennifer,Hodges,Operations,Boston,146670.39,2018-04-15
+153,Caroline,Daniels,Finance,Boston,43091.66,2019-04-08
+154,Jodi,Huff,Operations,Seattle,124933.52,2022-07-10
+155,Amy,Grant,Finance,Boston,71755.06,2024-11-29
+156,Joseph,Frye,Admin,San Francisco,41003.42,2024-06-04
+157,Tiffany,Pugh,Finance,Boston,43815.21,2020-07-30
+158,Becky,Johnson,Marketing,Austin,146807.75,2016-06-04
+159,Suzanne,Clark,Sales,Chicago,129894.54,2024-07-01
+160,Christopher,Newman,Marketing,Boston,118959.72,2025-03-25
+161,Julia,Ortega,Admin,Boston,121159.95,2020-07-22
+162,Chelsea,Tucker,Marketing,Austin,144281.2,2017-04-02
+163,Beth,Reese,HR,Chicago,121019.27,2021-01-17
+164,Caitlin,Robinson,IT,San Francisco,149137.62,2021-08-06
+165,James,Brooks,Operations,Chicago,72081.73,2017-02-01
+166,Reginald,Diaz,IT,San Francisco,68214.3,2024-06-08
+167,Michael,Singh,Finance,Boston,113804.26,2017-09-09
+168,Logan,Mathis,Operations,Boston,109838.27,2023-03-15
+169,Christina,Allen,Sales,Boston,51569.9,2019-12-14
+170,Timothy,Zimmerman,Marketing,Chicago,96171.73,2022-06-27
+171,Mitchell,Johnson,Marketing,Chicago,138456.57,2025-06-18
+172,Molly,George,Finance,Denver,87315.7,2020-09-20
+173,Kristen,Brock,Admin,New York,62002.58,2021-01-25
+174,Brooke,Smith,IT,Chicago,116906.44,2016-08-26
+175,Julie,Robinson,Sales,Boston,130364.66,2021-12-26
+176,Monica,Murphy,Operations,New York,43584.59,2019-08-25
+177,Steven,Thompson,Operations,New York,65307.55,2025-05-26
+178,Kyle,Clark,Operations,Denver,68354.03,2018-11-28
+179,Christine,Walker,Finance,Denver,54875.82,2023-06-21
+180,Amber,Hunter,Admin,Boston,115506.52,2025-07-30
+181,Andrea,Dickerson,IT,Boston,128145.04,2019-08-19
+182,Lindsay,Patrick,HR,Austin,82060.87,2021-08-01
+183,Larry,Lewis,Marketing,New York,89781.08,2024-03-27
+184,Cheryl,Combs,Marketing,Austin,86788.53,2023-07-19
+185,Teresa,Brown,Admin,Seattle,145483.68,2018-05-20
+186,Tonya,Moyer,Finance,San Francisco,89019.36,2020-06-29
+187,Rhonda,Thomas,Sales,Chicago,74682.85,2020-12-29
+188,Brian,Murray,HR,Chicago,54981.12,2017-12-01
+189,Alexander,Fernandez,Admin,Chicago,115362.78,2017-11-11
+190,David,Hayes,Sales,Austin,47246.92,2022-09-05
+191,Aaron,Fox,Operations,Denver,135538.71,2020-10-13
+192,James,Bowen,IT,Seattle,126046.94,2023-11-12
+193,Nancy,Cooper,IT,Chicago,103448.11,2025-06-01
+194,Henry,Smith,Marketing,Austin,50062.58,2024-11-09
+195,Alicia,Long,IT,Seattle,82800.98,2018-05-07
+196,Ryan,Thompson,Operations,New York,75893.37,2025-11-17
+197,Mark,Newman,Operations,Boston,100176.5,2020-04-24
+198,Donald,Lopez,Sales,Boston,43978.72,2016-09-01
+199,Tiffany,Parks,Sales,New York,64999.44,2024-02-07
+200,Christopher,Arnold,Admin,New York,120074.55,2018-11-14
+201,Jacob,Cervantes,Admin,Austin,136154.58,2018-12-21
+202,Jocelyn,Richard,Admin,Austin,75857.93,2018-02-08
+203,Kerri,Wood,Operations,Denver,83382.78,2018-12-29
+204,Melinda,Gomez,Admin,New York,100831.12,2025-09-08
+205,Kristy,Crawford,Finance,Seattle,96837.94,2020-10-31
+206,Diana,Case,Finance,San Francisco,131840.84,2024-08-12
+207,Michael,Molina,Admin,Chicago,67549.27,2018-08-09
+208,Dawn,Sanchez,Admin,San Francisco,53695.45,2025-01-07
+209,Andrew,Morgan,Marketing,New York,40190.05,2019-08-29
+210,Heather,Gibson,Admin,Chicago,146649.82,2016-09-01
+211,Julie,Robinson,HR,Denver,52406.53,2025-11-10
+212,Courtney,James,Marketing,Seattle,144101.55,2021-10-18
+213,Ashlee,Larson,Sales,Denver,78280.54,2022-02-10
+214,Denise,Wallace,Admin,Austin,47407.26,2021-06-18
+215,Andrew,Grant,Sales,San Francisco,147061.72,2021-09-18
+216,Dana,Bush,Marketing,Chicago,68124.58,2018-02-21
+217,Cheyenne,Peters,Operations,Denver,101581.73,2017-04-01
+218,Kenneth,Rodriguez,IT,Chicago,91915.08,2018-12-07
+219,Collin,Lucas,Finance,Chicago,79782.31,2023-11-05
+220,Madison,Turner,IT,New York,121453.02,2021-09-26
+221,Curtis,Graham,IT,Boston,91442.01,2020-09-27
+222,Bradley,Daniel,Finance,Denver,57504.8,2018-12-16
+223,Jeremy,Curtis,Finance,New York,115139.48,2022-03-18
+224,Jorge,Casey,HR,Boston,87782.92,2017-10-24
+225,Kevin,May,Sales,Denver,149363.15,2022-09-02
+226,Melissa,Love,Operations,Denver,114247.38,2025-12-09
+227,Rebekah,Lee,IT,Seattle,135356.11,2019-09-14
+228,Brian,Silva,IT,Seattle,109629.73,2020-02-04
+229,Laura,Hawkins,Sales,Seattle,118335.1,2025-10-17
+230,Ryan,Mckenzie,Finance,Seattle,122598.85,2022-05-25
+231,Randy,Erickson,Finance,Seattle,91885.33,2023-07-27
+232,Ryan,Hughes,Admin,Chicago,115747.45,2021-03-17
+233,Nancy,Terrell,Operations,Boston,74174.18,2020-03-27
+234,Joshua,Campbell,Marketing,Chicago,71205.27,2025-10-31
+235,Sandra,Fowler,Admin,Denver,108355.08,2026-05-01
+236,Maria,Little,Marketing,Boston,77788.85,2017-04-28
+237,Christopher,Knight,Finance,Chicago,115536.91,2024-01-29
+238,Robert,Mitchell,Finance,San Francisco,133559.21,2018-04-22
+239,Kyle,Johnson,Marketing,Chicago,121918.14,2024-06-09
+240,Travis,Garcia,Marketing,Seattle,103171.78,2024-04-22
+241,Peggy,Morgan,Admin,Denver,50598.93,2025-05-29
+242,Michael,Robinson,HR,Chicago,147244.29,2021-07-16
+243,Robert,Turner,Admin,Denver,43554.51,2024-09-12
+244,Jacob,Rhodes,Sales,Denver,123769.02,2023-09-05
+245,Richard,Barker,Marketing,Austin,55921.78,2024-09-23
+246,Kevin,Baker,IT,Seattle,46363.59,2022-05-09
+247,Deanna,Olsen,Sales,Boston,84415.69,2016-08-14
+248,Joseph,Reyes,Marketing,Seattle,64266.64,2021-02-28
+249,Brittany,Thomas,Operations,Boston,57899.87,2023-12-11
+250,Samantha,Duncan,Admin,Boston,51017.96,2025-02-08
+251,Linda,Watkins,Marketing,San Francisco,80398.15,2023-01-03
+252,Kimberly,Cox,IT,Chicago,78612.66,2024-02-07
+253,Teresa,Stephens,Admin,Seattle,84838.75,2022-04-28
+254,Evan,Davis,Admin,Boston,122123.44,2023-08-19
+255,Kimberly,Williams,Sales,New York,141685.43,2020-03-06
+256,Judy,Jacobs,Operations,San Francisco,42697.02,2020-05-21
+257,Rebecca,Wilson,Marketing,Denver,106162.85,2020-09-20
+258,Elizabeth,Thomas,Operations,Seattle,55251.75,2019-06-28
+259,Jessica,Peters,Operations,Chicago,105812.05,2023-07-07
+260,Monique,Clay,Sales,Austin,69050.77,2022-01-20
+261,Scott,Torres,Operations,Austin,82602.34,2025-06-08
+262,Jason,Page,Finance,Austin,70264.91,2024-10-23
+263,Ashley,Lewis,Admin,San Francisco,130244.66,2021-10-11
+264,Heidi,House,IT,Denver,92658.21,2018-05-04
+265,Cory,Wood,Finance,Chicago,41239.27,2022-07-13
+266,Yvette,Williams,Finance,Denver,63803.72,2026-02-27
+267,Rodney,Reyes,HR,Boston,54083.69,2021-09-16
+268,David,Rodriguez,Operations,San Francisco,112805.19,2023-01-05
+269,Brittany,Novak,Finance,Chicago,127410.01,2019-08-31
+270,Bonnie,Mason,Operations,Chicago,79701.18,2025-01-24
+271,Destiny,Gamble,Operations,Chicago,83260.46,2022-11-03
+272,Jennifer,Reynolds,Sales,Austin,54677.2,2022-10-10
+273,Natasha,Mitchell,IT,New York,106205.41,2026-05-23
+274,William,Washington,Finance,Chicago,91134.39,2023-12-28
+275,Audrey,Patel,Sales,Seattle,60413.84,2022-01-22
+276,Carlos,Vaughn,Sales,Chicago,140426.25,2023-04-22
+277,Tony,Romero,Sales,Seattle,125268.57,2025-04-12
+278,Hannah,George,IT,Austin,113806.1,2021-11-19
+279,Susan,Hall,Operations,Boston,108996.69,2025-09-06
+280,Jacob,Arnold,Admin,Austin,66978.5,2021-10-26
+281,Timothy,Montoya,Marketing,New York,133664.42,2026-06-03
+282,Kevin,Franklin,Marketing,Boston,131435.74,2017-03-16
+283,Frederick,Wood,Admin,Boston,42211.48,2022-10-24
+284,Matthew,Copeland,IT,New York,129276.46,2022-08-16
+285,Gary,Harmon,Sales,San Francisco,142397.62,2025-07-03
+286,James,Castaneda,Operations,New York,140512.95,2020-09-17
+287,Douglas,Lopez,HR,Austin,142192.59,2020-11-11
+288,Rebecca,Ortiz,Marketing,New York,111245.81,2025-12-13
+289,Amanda,Wright,IT,Boston,101608.22,2026-03-22
+290,Todd,Bell,Operations,New York,139504.83,2017-11-10
+291,William,Martinez,Sales,San Francisco,145878.83,2019-05-06
+292,Anna,Sweeney,Marketing,San Francisco,87244.22,2023-06-17
+293,Nicholas,Torres,IT,Seattle,108123.99,2021-08-20
+294,John,Martinez,IT,Seattle,61433.15,2022-11-03
+295,Kimberly,Giles,Operations,San Francisco,95207.52,2026-04-21
+296,Rhonda,West,Operations,Austin,114001.56,2020-02-16
+297,Colleen,Craig,IT,Boston,81881.9,2019-01-26
+298,Jessica,Boyer,IT,San Francisco,113683.69,2024-09-17
+299,Tiffany,Davis,HR,San Francisco,52602.89,2018-02-12
+300,Mary,Cannon,Sales,Denver,65419.06,2020-08-28
+301,Bonnie,Ortega,IT,Chicago,63512.2,2019-12-21
+302,Craig,Fisher,Marketing,Seattle,102343.1,2025-02-15
+303,Charles,Sanchez,IT,San Francisco,96945.06,2025-05-26
+304,Heather,Stout,Finance,Chicago,90570.58,2024-08-23
+305,Joel,Moss,Marketing,Boston,91355.6,2025-06-26
+306,Tammy,Davila,HR,Denver,111549.64,2023-11-03
+307,Mary,Russell,Marketing,San Francisco,100265.28,2020-09-06
+308,Kathy,Weiss,Finance,Austin,126144.79,2020-06-16
+309,Kyle,King,Operations,Austin,50175.88,2020-02-29
+310,Monica,Chang,HR,Austin,60264.15,2017-02-19
+311,Jaime,Zimmerman,HR,Chicago,91812.38,2017-04-27
+312,Michael,Carpenter,Admin,San Francisco,81749.15,2024-12-12
+313,Rebecca,Green,IT,New York,125416.03,2019-02-25
+314,Caleb,Miller,Admin,San Francisco,111232.85,2017-08-15
+315,William,Mathis,HR,Chicago,50323.4,2016-09-04
+316,Lisa,Vega,Sales,Denver,129338.57,2023-12-14
+317,Kevin,Kidd,Admin,New York,52416.84,2022-05-31
+318,Johnathan,Roberts,IT,Denver,57925.94,2018-05-22
+319,Jason,Larson,HR,Denver,114013.78,2019-04-28
+320,Alexandria,Ellis,Operations,Chicago,118470.26,2022-02-11
+321,Kelly,Peterson,Sales,Seattle,74743.19,2023-04-05
+322,Tracey,Johnson,Finance,Denver,40715.16,2023-09-04
+323,Janice,Wall,Finance,Austin,128268.9,2017-07-26
+324,Kim,Garcia,Finance,Denver,45935.17,2018-06-02
+325,Ronald,Malone,Marketing,Chicago,118189.64,2022-10-12
+326,Jennifer,Singleton,Sales,San Francisco,141515.88,2025-09-13
+327,Robin,Walker,HR,Seattle,76743.44,2020-06-11
+328,Brandi,Ellis,Operations,San Francisco,98202.61,2019-03-13
+329,Eric,Walker,IT,Austin,145524.7,2024-08-20
+330,Gregory,Perry,Operations,Seattle,103624.74,2023-02-22
+331,Margaret,Reese,Admin,Boston,58925.39,2026-05-15
+332,Nicole,Robinson,Finance,New York,49086.15,2022-06-24
+333,Julie,Griffin,Admin,Boston,56057.08,2023-07-16
+334,Amanda,Dunn,Admin,Boston,79264.81,2025-06-25
+335,Raymond,French,Operations,Chicago,48692.96,2025-11-17
+336,Matthew,Burton,HR,Seattle,64891.07,2019-11-12
+337,Lawrence,Hodge,Sales,Denver,95758.73,2023-02-13
+338,William,Simmons,Marketing,Austin,68769.05,2021-12-31
+339,Rebecca,Parker,Finance,Chicago,143389.43,2019-06-14
+340,Tara,Martin,Finance,Austin,49783.24,2020-01-23
+341,Stacy,Johnson,Admin,Boston,73999.66,2021-11-16
+342,Steve,Buckley,Sales,Austin,42099.85,2020-12-12
+343,Timothy,Lopez,Sales,New York,141565.48,2023-05-25
+344,Rebecca,Neal,Sales,Seattle,55506.69,2022-07-26
+345,Anna,Duke,HR,Austin,50123.22,2024-03-04
+346,Phillip,Watson,Admin,Chicago,122958.55,2020-11-29
+347,Amanda,Mack,Marketing,Chicago,83419.91,2021-12-01
+348,Matthew,Allen,Admin,Seattle,125787.73,2018-07-25
+349,Angela,Lamb,Sales,Boston,134940.12,2025-09-24
+350,Andrea,Johnson,IT,Austin,122913.04,2018-09-04
+351,Ryan,Montgomery,Operations,Seattle,93520.11,2021-11-25
+352,Spencer,Strickland,Finance,Chicago,90146.68,2016-11-01
+353,Gerald,Mitchell,Admin,San Francisco,108819.68,2024-09-16
+354,Seth,Wright,Sales,Denver,118133.17,2021-03-15
+355,Carol,Taylor,Sales,New York,107786.86,2018-11-16
+356,Susan,Johnson,IT,Denver,52947.06,2021-01-20
+357,Frank,Davies,Operations,San Francisco,111444.31,2022-11-04
+358,Sean,Jennings,Admin,San Francisco,142060.94,2023-08-17
+359,Ryan,Jackson,HR,Chicago,71347.65,2022-03-27
+360,Melinda,Yang,Operations,Seattle,133759.54,2025-09-23
+361,Jamie,Moore,Admin,Boston,124367.2,2024-09-10
+362,Michael,Perez,IT,Boston,73676.23,2020-03-20
+363,Cynthia,Smith,IT,Denver,64291.54,2024-11-04
+364,Robert,Carroll,IT,Seattle,46226.35,2026-01-05
+365,Richard,Benitez,IT,New York,145454.68,2020-09-04
+366,Erica,Smith,HR,Austin,106331.27,2023-09-10
+367,Amanda,Carroll,Admin,New York,66497.79,2025-04-24
+368,Ryan,Stokes,Operations,Denver,52058.08,2019-02-26
+369,Jesse,Hamilton,Marketing,San Francisco,40227.34,2022-01-22
+370,Alex,Harris,Marketing,Austin,89137.6,2023-07-31
+371,Allison,Hodges,Marketing,Chicago,148245.81,2019-07-29
+372,Rachel,Quinn,IT,Chicago,133580.46,2023-05-08
+373,Virginia,Wells,Sales,San Francisco,137160.34,2023-09-13
+374,Caitlin,Miranda,HR,Seattle,47377.31,2021-09-03
+375,Meghan,Smith,HR,San Francisco,59322.25,2019-03-10
+376,Julie,Gardner,Sales,New York,98460.36,2023-01-14
+377,Jon,White,HR,Denver,76370.53,2024-01-16
+378,Hannah,Harris,Marketing,Seattle,91871.22,2022-02-08
+379,Kaylee,Joseph,IT,Austin,124364.38,2018-04-30
+380,William,Gillespie,HR,Austin,138209.84,2020-08-21
+381,Debra,Lopez,Operations,New York,40916.17,2018-11-23
+382,Charles,Brown,Operations,Boston,74552.33,2017-12-28
+383,Andrea,Escobar,HR,Seattle,136584.32,2020-11-07
+384,Amber,Garrett,Operations,Denver,80312.04,2025-06-29
+385,Brian,Fischer,Operations,New York,147000.34,2022-03-03
+386,Emily,Leblanc,Sales,Austin,72269.49,2020-04-05
+387,Kaylee,Holmes,Operations,Denver,67048.98,2024-11-23
+388,Jose,Williamson,HR,Seattle,71654.9,2025-05-13
+389,Sabrina,Sanchez,IT,Boston,142994.78,2018-09-23
+390,Michael,Williams,HR,Denver,98486.75,2024-03-03
+391,Joshua,Welch,HR,New York,126487.12,2023-12-10
+392,Cindy,Thompson,Operations,Seattle,56979.61,2016-07-12
+393,Ricardo,Ramos,Operations,New York,68616.43,2023-03-03
+394,Lisa,Frazier,Finance,New York,136268.2,2025-03-05
+395,Valerie,Mitchell,IT,Boston,143609.22,2025-08-11
+396,Kelly,Smith,Finance,Austin,141501.64,2018-06-29
+397,Michaela,Smith,Operations,Boston,74396.52,2017-02-26
+398,Sean,Olson,Finance,San Francisco,125881.73,2025-04-07
+399,Robin,Morales,HR,San Francisco,149535.69,2016-09-03
+400,Richard,Fields,Marketing,New York,113951.06,2018-11-19
+401,Tracey,Combs,IT,Austin,112632.11,2023-11-22
+402,Laura,Blake,Operations,San Francisco,64935.54,2023-03-04
+403,Laura,Shea,Marketing,Boston,67322.5,2020-06-13
+404,Michelle,Horton,Admin,Chicago,75072.25,2019-04-16
+405,Arthur,Cook,Finance,Seattle,64205.44,2021-01-06
+406,Joshua,Miller,Finance,Denver,64327.97,2019-01-01
+407,Colin,Richards,Operations,New York,136836.19,2022-01-01
+408,Louis,Morris,Sales,Denver,86037.46,2023-07-17
+409,Nichole,Hudson,IT,Austin,42729.87,2023-10-01
+410,Scott,Esparza,IT,Boston,132400.8,2020-05-28
+411,Christina,Baker,Finance,New York,123669.24,2016-12-28
+412,John,Martinez,Sales,Seattle,102239.2,2025-05-23
+413,Sheila,Perry,Operations,Austin,95986.82,2021-06-15
+414,Nicole,Ellis,Sales,Chicago,149751.95,2024-01-04
+415,Kevin,Farmer,Marketing,Chicago,142827.63,2023-06-26
+416,Michael,Harris,HR,Denver,130778.98,2019-06-13
+417,David,Brooks,Sales,San Francisco,147055.09,2017-05-31
+418,Jessica,Leach,Marketing,San Francisco,86879.28,2024-03-10
+419,Sharon,Olson,Operations,Austin,91131.74,2019-10-17
+420,Jasmine,Evans,Marketing,Denver,49944.58,2025-11-11
+421,Brent,Randall,HR,Seattle,98436.34,2026-04-03
+422,David,Castro,Sales,San Francisco,100322.15,2022-06-30
+423,Brent,Powers,Finance,Denver,80652.76,2022-05-23
+424,Lee,Carter,HR,Denver,134547.29,2019-06-08
+425,Corey,Li,Sales,Austin,101070.52,2023-04-07
+426,David,Anderson,IT,Seattle,42807.42,2022-01-18
+427,Karen,Lewis,Sales,Seattle,147899.78,2025-12-12
+428,Tiffany,Carter,Finance,Boston,76270.49,2024-04-19
+429,Jennifer,Rodriguez,Sales,San Francisco,70995.0,2022-03-02
+430,Scott,Johnson,Operations,New York,81323.5,2024-02-11
+431,Eugene,White,Admin,New York,92649.51,2020-11-30
+432,Elizabeth,Reyes,Marketing,Denver,52027.06,2025-03-04
+433,Douglas,Davis,Sales,Chicago,107416.82,2019-12-03
+434,Roberto,Adams,Marketing,Denver,46706.57,2019-08-20
+435,Leslie,Clark,Marketing,Seattle,46110.9,2020-09-08
+436,Christopher,Estes,Admin,Boston,83963.27,2021-10-12
+437,Alfred,Rodriguez,Operations,Seattle,124734.8,2021-11-08
+438,Angela,Johnson,Sales,Boston,92374.03,2022-02-26
+439,Grace,Sanders,HR,Seattle,72959.21,2024-04-04
+440,Christopher,Anderson,IT,Boston,48473.34,2019-08-24
+441,Stephanie,Butler,Sales,Chicago,62641.93,2020-05-15
+442,Andre,Jenkins,Sales,San Francisco,121771.37,2021-10-13
+443,Laura,Smith,HR,Boston,58427.29,2020-09-27
+444,Lisa,Finley,Sales,Denver,56890.12,2025-06-13
+445,Morgan,Dixon,Operations,Chicago,93324.91,2017-05-12
+446,Riley,Swanson,Operations,Seattle,82610.61,2021-04-03
+447,Danny,Roberts,IT,San Francisco,92049.34,2021-08-18
+448,Raymond,Scott,HR,Seattle,76605.14,2026-03-09
+449,Donna,Weber,Operations,Austin,130452.27,2022-01-25
+450,Kristen,Powers,HR,Chicago,66252.61,2017-08-28
+451,Daniel,Jones,Operations,Austin,137386.46,2017-04-16
+452,Jessica,Robinson,Sales,New York,112240.82,2017-07-15
+453,Todd,Spencer,Finance,San Francisco,148912.04,2025-07-25
+454,Patrick,Williams,HR,San Francisco,107913.78,2023-08-01
+455,Erica,Brooks,Marketing,Seattle,99910.88,2022-09-27
+456,Lindsay,Young,Finance,New York,67000.66,2019-04-29
+457,Michelle,Scott,Finance,Boston,43247.98,2016-07-30
+458,Katherine,Robinson,HR,Boston,71866.34,2019-12-20
+459,Marissa,Pierce,Admin,San Francisco,49850.1,2017-11-22
+460,Sabrina,Lewis,Operations,San Francisco,99516.62,2023-12-13
+461,Tanya,Ruiz,Admin,Seattle,76608.53,2021-09-02
+462,April,Schultz,Marketing,Denver,123984.46,2019-06-14
+463,Scott,Aguirre,Admin,Seattle,71732.6,2017-10-28
+464,Susan,Russo,Marketing,Seattle,98756.47,2016-11-03
+465,Zachary,Smith,Operations,Austin,102130.11,2020-07-17
+466,Abigail,Collins,Admin,Denver,89546.27,2016-10-31
+467,Michele,Faulkner,Operations,Denver,94784.76,2019-10-15
+468,Amy,Lam,IT,San Francisco,90331.51,2026-05-16
+469,Matthew,Alvarado,HR,Seattle,123275.46,2020-09-20
+470,Amber,Beard,Finance,Denver,69082.07,2022-06-16
+471,Christian,Stephens,Sales,San Francisco,61723.49,2018-08-16
+472,Christopher,Castaneda,HR,Denver,143952.75,2017-05-10
+473,Christopher,Gonzalez,HR,San Francisco,146407.96,2025-04-23
+474,Jeremy,Jacobs,Finance,San Francisco,144979.53,2016-09-10
+475,Elizabeth,Martin,IT,Seattle,68867.21,2021-04-29
+476,Mark,Gonzalez,Marketing,New York,149556.01,2024-05-17
+477,Jessica,Mcneil,Admin,Chicago,128062.98,2016-07-08
+478,George,Walker,HR,San Francisco,126242.11,2019-07-18
+479,Richard,Mccoy,Sales,Boston,108117.85,2024-03-14
+480,Ashley,Wu,IT,New York,122078.44,2022-02-25
+481,Jeremy,Lopez,Admin,Seattle,98794.92,2019-06-20
+482,Jacob,Ramirez,Admin,San Francisco,110816.28,2020-02-01
+483,Michael,Montgomery,Finance,Austin,110440.45,2020-08-17
+484,Luis,Vazquez,IT,New York,105589.93,2025-08-27
+485,Benjamin,Brooks,Marketing,Chicago,139506.22,2021-03-30
+486,Jennifer,Brandt,HR,Seattle,104358.39,2025-05-08
+487,Aaron,Underwood,Sales,Boston,127237.06,2021-01-10
+488,Kevin,Ali,IT,New York,101957.22,2021-10-13
+489,Ruth,Melton,Operations,Chicago,59282.63,2021-11-01
+490,Amanda,Thompson,Operations,Austin,127605.11,2021-04-20
+491,Erica,Galvan,HR,Chicago,82556.32,2022-06-30
+492,William,Good,Marketing,Seattle,117023.02,2023-01-30
+493,Amy,Williams,Operations,San Francisco,44101.85,2021-12-15
+494,Marissa,Reynolds,Admin,Boston,114116.63,2025-08-24
+495,Zachary,Bryant,Finance,Denver,94350.89,2020-07-14
+496,David,Yates,Finance,San Francisco,113870.84,2020-07-31
+497,Herbert,Suarez,Admin,San Francisco,141404.58,2021-04-21
+498,Susan,Martinez,Admin,Seattle,81963.27,2019-09-27
+499,Benjamin,Thompson,Operations,Austin,109654.25,2020-10-14
+500,Rickey,Cruz,Operations,Boston,100117.82,2023-05-01
+501,Laura,Berry,Marketing,San Francisco,116482.98,2021-07-29
+502,Rebecca,Vazquez,Admin,Boston,122461.86,2025-05-11
+503,Joe,Robinson,Operations,New York,132242.68,2023-07-17
+504,Brandi,Richmond,Finance,Chicago,86861.78,2018-07-14
+505,Brian,Mendez,Finance,Chicago,145787.6,2018-08-31
+506,Adam,Miller,Finance,Seattle,145987.19,2021-02-02
+507,Lisa,Reid,Operations,San Francisco,116524.89,2026-05-11
+508,Haley,Lane,Finance,Seattle,67951.75,2020-10-05
+509,Tina,Curry,IT,New York,73067.14,2021-10-19
+510,Robert,Ward,Admin,New York,62438.76,2018-02-10
+511,Alex,Foster,HR,Chicago,129442.71,2024-02-16
+512,Bradley,Harmon,HR,San Francisco,144229.6,2016-09-02
+513,Amanda,Roberts,Marketing,Denver,43319.7,2024-07-27
+514,Darlene,Walton,Admin,Chicago,43316.94,2017-04-06
+515,Breanna,Spears,HR,Chicago,114646.35,2022-05-31
+516,Maria,Medina,IT,Boston,57236.92,2022-03-17
+517,Mark,Woods,IT,Chicago,114303.1,2024-06-17
+518,Brianna,Valdez,IT,Seattle,73119.86,2016-07-10
+519,Kelly,Goodwin,HR,San Francisco,77060.7,2022-12-16
+520,Amy,Cox,Finance,Chicago,104632.38,2024-01-01
+521,Jessica,Flores,Operations,New York,44970.97,2023-02-25
+522,Jack,Adams,IT,Austin,144273.89,2026-04-17
+523,Mark,Todd,Admin,Austin,45392.46,2023-03-30
+524,Keith,Harrison,Operations,Seattle,127138.27,2024-08-05
+525,Roger,Jones,Operations,Seattle,93837.66,2022-04-15
+526,Emily,Washington,Admin,Austin,64943.78,2021-01-07
+527,James,Underwood,Admin,Boston,45577.69,2016-07-25
+528,Christopher,Bolton,Marketing,Boston,80643.41,2025-03-23
+529,Crystal,Price,Sales,Chicago,142374.37,2017-09-05
+530,Angela,Huffman,IT,Boston,48557.42,2025-03-20
+531,Taylor,Carter,Marketing,Seattle,118309.22,2022-08-27
+532,Kelly,Green,IT,New York,92089.15,2017-09-03
+533,Michael,Turner,Sales,Boston,53816.21,2019-09-18
+534,Melissa,Davis,Admin,Denver,90336.06,2023-04-08
+535,Paul,Rubio,HR,Seattle,55638.12,2023-06-17
+536,Barbara,Leonard,HR,Boston,82249.07,2024-11-04
+537,Stacey,Klein,HR,New York,141949.58,2026-03-04
+538,Thomas,Glass,Operations,Chicago,124001.1,2022-12-18
+539,Laura,Avila,Finance,Seattle,41954.26,2026-02-10
+540,Luis,Delacruz,Sales,Denver,85840.47,2018-05-02
+541,Victoria,Cook,Admin,Boston,138436.53,2022-02-24
+542,Gary,Vance,Marketing,Seattle,80539.79,2025-03-20
+543,Andrew,Peters,Sales,Austin,119092.3,2024-05-26
+544,Tracy,Holmes,HR,Denver,83266.04,2024-03-11
+545,Kristin,Lee,HR,New York,58240.49,2022-10-22
+546,Joe,Gonzalez,Finance,New York,123755.03,2021-10-07
+547,Timothy,Nelson,Admin,Denver,102717.52,2025-04-19
+548,Gail,Hebert,HR,Seattle,134657.05,2025-12-05
+549,Sean,Diaz,Finance,New York,95027.08,2017-10-02
+550,Aaron,Price,Sales,Austin,78117.2,2026-04-13
+551,Rhonda,Morris,Admin,Denver,59515.39,2024-05-29
+552,David,Holt,Finance,New York,135659.63,2023-08-07
+553,Jessica,Haley,IT,Denver,143049.34,2021-03-16
+554,Latoya,Reed,Operations,San Francisco,58509.34,2023-01-13
+555,David,Jackson,HR,Chicago,107825.3,2018-03-08
+556,Candice,Hansen,IT,Boston,86356.97,2022-11-18
+557,Anita,Reid,Marketing,Boston,138229.06,2023-02-05
+558,Scott,Valdez,Operations,San Francisco,123947.82,2020-06-07
+559,Joseph,Little,IT,Chicago,73055.97,2016-09-28
+560,Jason,Beard,IT,Austin,129025.73,2021-01-16
+561,Mark,Jenkins,Finance,San Francisco,138837.51,2021-08-03
+562,Jesus,White,Operations,Austin,54132.39,2025-03-29
+563,Danielle,Evans,IT,Seattle,106465.66,2017-03-11
+564,Francisco,Gutierrez,Admin,Denver,137012.51,2024-08-13
+565,Crystal,Byrd,Admin,Austin,127258.81,2022-03-09
+566,Barbara,Hughes,Sales,Chicago,109666.99,2022-04-02
+567,Michelle,Hinton,Marketing,San Francisco,46208.61,2018-08-25
+568,Jorge,Pierce,Sales,Boston,138235.54,2023-12-04
+569,Jonathan,Rodriguez,Operations,Boston,51921.13,2025-04-14
+570,Joseph,Perry,HR,New York,49430.79,2025-10-02
+571,Beth,Lindsey,HR,New York,126618.94,2025-10-19
+572,Karen,Wolf,Sales,Denver,56676.45,2019-04-30
+573,Christopher,Green,Finance,New York,41802.21,2017-09-22
+574,Jeremy,Henderson,Sales,San Francisco,46204.86,2023-04-12
+575,Taylor,Moore,Marketing,San Francisco,65343.42,2021-07-26
+576,Cameron,Wilson,Finance,Seattle,134297.28,2023-02-16
+577,Daniel,Phillips,Sales,Denver,133958.12,2016-11-15
+578,Gary,Wolfe,IT,Denver,103565.02,2025-11-24
+579,William,Hernandez,Admin,Denver,48551.62,2020-10-01
+580,John,Garcia,Finance,San Francisco,93615.88,2021-03-10
+581,Michelle,Neal,IT,Denver,83536.57,2024-08-21
+582,William,Livingston,Finance,San Francisco,96530.87,2024-08-11
+583,Paul,Sanders,Operations,Austin,127277.04,2017-03-23
+584,Brandon,Barrett,Operations,Chicago,120053.33,2020-01-28
+585,David,Brock,Admin,Seattle,70091.71,2023-12-18
+586,Charles,Li,HR,Denver,54977.75,2023-11-21
+587,Emily,Nguyen,Operations,New York,98209.48,2017-06-05
+588,Joshua,Jenkins,Admin,Austin,64144.32,2018-07-15
+589,William,James,Operations,New York,60425.48,2023-10-18
+590,Bruce,Herman,IT,Seattle,95106.43,2024-02-27
+591,Emily,Bell,Finance,Austin,119927.73,2020-05-16
+592,Gail,Johnson,Operations,New York,132053.69,2019-07-13
+593,Stacey,Wright,Marketing,Austin,42121.82,2020-06-11
+594,Kayla,Delgado,Marketing,Chicago,46781.26,2018-06-15
+595,Jeffrey,Gallegos,HR,Denver,84884.96,2021-10-27
+596,Jill,Bradley,IT,San Francisco,97325.21,2018-01-18
+597,Willie,Guerrero,Marketing,New York,111054.39,2019-07-09
+598,Melissa,Wilson,Sales,Denver,50400.44,2018-03-05
+599,Amber,Hebert,HR,San Francisco,128848.86,2023-10-19
+600,Darryl,Price,Admin,Austin,99107.14,2019-08-04
+601,Christopher,Myers,Sales,Chicago,87814.49,2017-08-08
+602,Billy,Martinez,Sales,Seattle,94085.66,2024-03-29
+603,Roger,Williams,Finance,Denver,110837.82,2016-11-06
+604,Melissa,Roman,Marketing,Denver,75734.49,2024-04-26
+605,Manuel,Myers,HR,New York,40927.38,2020-07-07
+606,Shannon,Williams,Finance,Seattle,139101.37,2020-09-21
+607,Daniel,Lopez,Marketing,Chicago,106877.42,2020-09-26
+608,Alec,Dunn,IT,Boston,69799.73,2019-07-07
+609,Ann,Tucker,HR,San Francisco,144874.8,2021-02-06
+610,Marissa,Sutton,Admin,New York,147980.79,2019-02-03
+611,Jonathon,Watkins,IT,Seattle,127620.59,2025-07-01
+612,William,Hartman,IT,Denver,74300.6,2023-12-26
+613,Edward,Smith,Sales,Denver,145527.81,2021-11-26
+614,Christina,Benton,Sales,Austin,138803.88,2017-03-06
+615,Stacy,Richard,IT,San Francisco,122248.46,2023-07-05
+616,Benjamin,Ramos,Admin,San Francisco,110251.23,2016-09-05
+617,Emily,Hendricks,Sales,Boston,85243.18,2016-07-03
+618,Anna,Thomas,HR,Chicago,102108.71,2018-08-08
+619,Richard,Hoffman,Admin,Chicago,132010.75,2022-05-12
+620,James,Mccormick,HR,New York,126571.0,2018-07-13
+621,Amanda,Thompson,IT,Chicago,53054.61,2016-11-23
+622,Michael,Johnson,IT,Denver,125802.67,2021-11-18
+623,Deanna,Leonard,Sales,Austin,44884.53,2026-05-14
+624,Matthew,Bryan,Operations,Seattle,141049.57,2024-01-20
+625,Leonard,Jackson,Finance,Denver,105314.72,2024-05-19
+626,Leslie,Williams,Marketing,Austin,59630.2,2016-12-28
+627,Katherine,Pope,Finance,Austin,43695.63,2022-03-05
+628,Sherry,Hoffman,IT,Chicago,81634.73,2023-09-02
+629,Brenda,Pitts,Operations,Austin,72184.23,2017-06-06
+630,Sergio,Meyers,Marketing,Chicago,45516.19,2019-02-16
+631,Vanessa,Mccall,IT,Seattle,116239.81,2025-11-15
+632,Anthony,Webb,Operations,San Francisco,73127.7,2026-04-01
+633,Natasha,Bridges,Sales,Chicago,126825.36,2022-08-09
+634,Marc,Acosta,Admin,Seattle,98127.35,2022-12-03
+635,Kristy,Alexander,Admin,Austin,90740.69,2024-03-02
+636,Denise,Cervantes,Admin,Boston,115677.17,2018-06-13
+637,Bruce,Kelly,Admin,New York,78488.31,2024-02-05
+638,Drew,Jones,Operations,San Francisco,113277.67,2017-10-24
+639,Emily,Macias,IT,Seattle,42514.44,2017-08-31
+640,Scott,Tran,Admin,Seattle,130359.92,2017-10-03
+641,Rebecca,Wood,Admin,Denver,74258.9,2018-01-22
+642,Andrew,Coleman,Marketing,San Francisco,108439.97,2022-08-30
+643,Brooke,Hill,Finance,Chicago,120537.01,2023-06-09
+644,Shane,Garcia,IT,San Francisco,126823.39,2017-04-01
+645,Jason,Shaw,Marketing,New York,52828.68,2023-11-07
+646,Annette,Terry,Marketing,Chicago,40480.31,2024-02-06
+647,Brian,Washington,Sales,Austin,125230.26,2019-11-12
+648,Angelica,Miles,HR,Austin,60252.53,2017-03-18
+649,Jeffrey,Welch,Marketing,Denver,142679.62,2026-05-10
+650,Stacy,Holmes,Finance,New York,53058.61,2016-09-07
+651,Timothy,Johnson,Admin,Boston,94530.72,2022-09-13
+652,Shelly,Cole,Admin,Seattle,140865.05,2022-12-10
+653,Amanda,Stevens,Admin,Boston,124749.23,2017-08-03
+654,Elizabeth,Mcdonald,Admin,Boston,134931.03,2020-10-30
+655,Tina,Newman,HR,Seattle,116301.46,2020-05-26
+656,Chris,Cunningham,Admin,Seattle,83083.84,2018-08-26
+657,Angela,Gonzalez,Finance,San Francisco,128365.71,2026-03-17
+658,Monique,Hess,Finance,Austin,120579.98,2025-07-18
+659,Larry,Craig,Operations,Seattle,144516.14,2017-06-29
+660,Daniel,Clements,Marketing,Denver,70711.29,2018-12-30
+661,John,Pena,IT,Austin,88320.23,2026-01-07
+662,Jeremy,Banks,Finance,Chicago,52184.44,2026-01-31
+663,Danielle,Huff,Finance,Chicago,47074.97,2025-08-10
+664,Miranda,Baldwin,Sales,Seattle,114523.79,2022-03-17
+665,Cindy,Gutierrez,Sales,New York,73998.57,2018-09-23
+666,Sara,Irwin,IT,Seattle,146036.99,2021-09-08
+667,Amber,Hogan,HR,Chicago,52253.99,2026-02-24
+668,Erica,Davidson,Admin,New York,68201.16,2025-07-22
+669,Robert,Grant,Admin,Boston,54335.92,2020-10-06
+670,Jane,Mills,Finance,Chicago,99778.66,2021-09-29
+671,Kara,Coleman,Operations,Austin,103695.05,2017-04-08
+672,James,Crosby,HR,Denver,80605.32,2022-05-27
+673,William,Castillo,Operations,Austin,149976.01,2022-10-15
+674,Sharon,Bell,Sales,Boston,91530.69,2024-01-06
+675,Sierra,Davis,Finance,Seattle,55357.46,2017-03-08
+676,Maria,Morgan,Sales,Chicago,137871.9,2016-09-19
+677,Oscar,Jones,HR,Austin,78676.5,2016-09-17
+678,Zachary,Tran,Operations,Denver,86639.71,2018-08-20
+679,Joel,Booth,IT,Austin,51154.56,2024-11-05
+680,Joel,Riley,Finance,Boston,96972.1,2024-12-06
+681,Tanner,Abbott,HR,Austin,63841.58,2024-09-16
+682,Antonio,Lee,Sales,San Francisco,133700.41,2019-08-21
+683,Jenna,Perry,Marketing,Denver,68466.59,2024-12-30
+684,Alison,Davidson,Sales,Chicago,103238.81,2025-07-30
+685,Rhonda,Anderson,IT,Boston,113533.4,2026-02-10
+686,Chad,Robinson,Sales,Chicago,135402.04,2016-08-24
+687,Candace,Gonzalez,Marketing,Boston,47122.57,2020-05-18
+688,Joel,Wallace,Sales,Chicago,109395.42,2016-11-26
+689,Eric,Rodriguez,Sales,Austin,135621.92,2017-08-16
+690,Brianna,King,Operations,San Francisco,144608.85,2022-10-19
+691,Emily,Grimes,Admin,Denver,54117.01,2022-12-03
+692,Jasmine,Jacobson,HR,New York,81191.35,2019-04-05
+693,Laurie,Sosa,HR,Chicago,50639.89,2017-10-12
+694,Courtney,Nelson,Sales,Boston,53509.77,2022-06-04
+695,Ryan,Finley,Operations,Austin,147900.23,2022-09-27
+696,Debbie,Dominguez,Finance,Boston,143084.58,2023-03-18
+697,Brandi,Ramos,Operations,Seattle,117394.81,2026-05-16
+698,Steven,Byrd,Admin,Denver,141383.99,2024-10-26
+699,William,Singh,Operations,Austin,78437.01,2017-04-14
+700,Deborah,Edwards,Marketing,Austin,58022.25,2023-07-18
+701,Angela,Campbell,Sales,Denver,47087.37,2023-01-04
+702,Ruben,Smith,Admin,Boston,110611.82,2025-06-25
+703,Jeremy,James,Marketing,Boston,135147.71,2022-02-12
+704,Heidi,Brown,Operations,Seattle,52192.63,2016-10-25
+705,Dominic,Cain,Sales,Denver,54475.69,2023-03-12
+706,Bob,Moyer,HR,Seattle,102734.18,2019-03-29
+707,Richard,Gentry,Marketing,San Francisco,56920.6,2021-02-18
+708,Victoria,Ramirez,Marketing,Austin,131095.51,2016-09-27
+709,Maria,Elliott,HR,Seattle,118395.97,2022-07-21
+710,David,Pena,Operations,Denver,66070.23,2017-08-27
+711,Christine,Anderson,IT,Austin,43365.37,2022-07-25
+712,Heather,Reyes,Admin,Chicago,118439.99,2022-10-11
+713,Douglas,Ford,Finance,Denver,148198.67,2019-03-30
+714,Devin,Drake,HR,Boston,87732.47,2025-01-06
+715,Antonio,Morris,Sales,New York,145344.66,2018-11-04
+716,Erin,Preston,HR,Austin,103883.63,2017-02-27
+717,Vanessa,Salazar,Finance,Denver,63385.49,2024-01-25
+718,Tiffany,Zimmerman,Finance,Denver,73019.54,2016-10-25
+719,Audrey,Rios,Admin,Seattle,107236.1,2026-04-21
+720,Cody,Murphy,IT,New York,71654.87,2019-04-28
+721,Amber,Singleton,Operations,San Francisco,120387.27,2017-11-11
+722,Kevin,Hughes,Admin,San Francisco,130791.23,2018-02-09
+723,Kristi,Fuentes,Admin,San Francisco,95690.58,2018-11-19
+724,Gabrielle,Bender,Finance,Denver,130647.65,2017-01-06
+725,Julie,Morales,Marketing,San Francisco,145391.35,2017-11-29
+726,Jennifer,Murphy,Operations,Austin,93212.64,2022-03-16
+727,Edwin,Espinoza,Finance,Austin,68939.63,2016-11-29
+728,Christie,Callahan,Operations,Chicago,92967.31,2019-04-10
+729,Natalie,Lawson,Marketing,Chicago,148597.96,2019-09-05
+730,John,Bruce,Marketing,Chicago,146142.93,2017-09-23
+731,David,Meza,HR,Boston,116239.07,2018-09-14
+732,Kelly,Garrett,Admin,Boston,86169.27,2025-05-18
+733,Garrett,Jones,Operations,Chicago,121519.73,2023-02-25
+734,Christina,Koch,Finance,Boston,146132.71,2021-08-27
+735,Daniel,Sanders,Marketing,San Francisco,101992.42,2017-10-23
+736,Roger,Graham,Marketing,Austin,65965.29,2019-07-05
+737,Olivia,Hicks,Marketing,San Francisco,134714.42,2018-05-07
+738,Tiffany,Knight,Sales,Austin,138530.19,2024-02-10
+739,Brian,Esparza,HR,Denver,44230.65,2025-02-02
+740,Cindy,Robinson,IT,New York,93518.62,2017-12-18
+741,Christopher,Knapp,Sales,New York,45125.25,2022-09-27
+742,Nicholas,Ashley,Operations,San Francisco,133713.44,2026-02-12
+743,Crystal,Hayes,IT,San Francisco,120424.47,2018-08-25
+744,Dennis,Guerrero,HR,Chicago,121075.56,2024-08-01
+745,Karen,Wells,Operations,Chicago,119429.63,2018-05-10
+746,Steven,Nelson,Marketing,New York,144169.25,2016-10-20
+747,Justin,Stewart,Marketing,Austin,45553.72,2026-01-01
+748,Eric,Smith,IT,Seattle,113699.98,2025-05-19
+749,Kara,Bailey,Marketing,Boston,81579.36,2017-08-20
+750,Kevin,Strickland,HR,Denver,49756.52,2019-04-22
+751,April,Johnston,HR,Seattle,121529.15,2022-05-12
+752,Rachel,Smith,Finance,San Francisco,123099.2,2019-06-07
+753,Phillip,Green,Finance,San Francisco,48152.95,2024-12-08
+754,David,Stevens,Finance,Denver,126494.81,2023-05-21
+755,Kimberly,Wagner,Sales,New York,134445.5,2023-04-18
+756,Michael,Martin,Finance,Denver,74382.56,2023-08-13
+757,Nathan,Martinez,Sales,Denver,134593.72,2023-11-20
+758,Stephanie,Brewer,Operations,Boston,114104.49,2026-04-22
+759,Lisa,Lee,Admin,New York,110268.46,2024-01-29
+760,John,Francis,Sales,Chicago,71777.18,2018-05-11
+761,Veronica,Miles,Sales,Boston,86286.6,2023-12-09
+762,Teresa,Garza,Operations,Austin,144605.13,2017-05-06
+763,Michael,Williams,Finance,Seattle,60835.96,2023-12-12
+764,Christian,Hines,Sales,Austin,59858.28,2023-12-18
+765,Mitchell,George,Operations,Boston,45362.62,2019-09-25
+766,Francisco,Williams,Operations,New York,74261.9,2018-03-14
+767,Christy,Young,Sales,Austin,142799.31,2016-06-26
+768,Peter,Hickman,HR,Chicago,99750.41,2020-10-04
+769,Gary,Brown,Sales,Boston,136845.9,2025-12-02
+770,Jessica,Jones,Marketing,Chicago,117271.34,2024-01-07
+771,Diana,Diaz,Marketing,Chicago,102996.77,2018-09-13
+772,Taylor,Martin,HR,New York,41440.05,2020-08-07
+773,Karen,Martin,Sales,New York,126174.15,2020-01-17
+774,Tina,Chaney,HR,Chicago,104673.13,2019-10-03
+775,Stephen,Serrano,Operations,Seattle,93223.86,2025-09-22
+776,Margaret,Holt,Marketing,Boston,127039.75,2019-04-07
+777,Kimberly,Romero,Operations,New York,75756.32,2017-05-19
+778,Christopher,Mitchell,HR,Austin,110015.08,2018-03-14
+779,Kerry,Williams,Admin,New York,45576.43,2026-02-12
+780,Nicholas,Stewart,Marketing,Seattle,131290.93,2020-04-07
+781,Brittany,Williams,Sales,New York,122370.77,2016-07-05
+782,Chloe,Bowman,Admin,Austin,78199.23,2020-08-28
+783,Eric,Moon,Finance,Austin,60636.95,2023-07-12
+784,Kristina,Turner,IT,Denver,149920.75,2024-04-29
+785,Veronica,Pierce,IT,New York,119039.44,2019-03-15
+786,Thomas,Blake,Admin,Denver,119858.68,2023-09-10
+787,Laura,Taylor,Admin,Chicago,90276.7,2023-04-24
+788,William,Patterson,Marketing,San Francisco,108063.26,2025-08-29
+789,Jacob,Todd,HR,Denver,116030.75,2016-08-12
+790,Daniel,Oconnell,Admin,Austin,126145.59,2021-07-11
+791,Frederick,Duran,Sales,Chicago,94527.29,2025-03-04
+792,Michael,Walker,Admin,Chicago,104931.66,2026-05-13
+793,David,Wood,Sales,Seattle,118941.0,2020-09-05
+794,Michael,Gray,Sales,San Francisco,119390.99,2025-12-31
+795,Heather,Cochran,Sales,Denver,112412.99,2022-07-15
+796,Whitney,Herrera,Operations,Chicago,59490.12,2024-03-31
+797,Jasmine,Pena,HR,Austin,83316.82,2020-02-20
+798,Michelle,Smith,IT,Austin,88412.01,2016-08-24
+799,James,Willis,Admin,Seattle,59192.51,2016-10-05
+800,Lisa,Carter,Admin,Seattle,149220.67,2024-12-16
+801,Donna,Conway,Admin,Denver,80482.4,2024-09-01
+802,Christie,Best,Operations,Boston,101111.35,2017-05-31
+803,Michael,Cameron,IT,Boston,121172.18,2017-11-21
+804,Kenneth,Carpenter,Marketing,Denver,116773.98,2019-09-29
+805,Adam,Jackson,Sales,New York,125757.56,2024-04-02
+806,Richard,Smith,Operations,Austin,116574.31,2017-05-23
+807,April,Brown,Marketing,Denver,129295.26,2025-01-12
+808,Nicole,Murphy,HR,Denver,104638.05,2019-09-01
+809,Mark,Martinez,Admin,Chicago,115289.92,2025-09-14
+810,Robert,Jordan,IT,New York,49689.16,2025-08-12
+811,Samantha,Lee,Finance,Denver,58664.71,2022-02-15
+812,Ryan,Knight,Finance,Chicago,40731.07,2023-10-09
+813,Crystal,Cameron,Marketing,Seattle,43114.61,2018-03-31
+814,Joyce,Anderson,Operations,Denver,44323.01,2023-02-12
+815,Steven,Berry,Finance,New York,100337.62,2020-03-20
+816,Amanda,Gonzalez,IT,Boston,124975.03,2023-09-04
+817,Jennifer,Brown,Operations,Seattle,148062.33,2017-09-11
+818,Ryan,Crawford,Finance,Boston,48577.92,2018-09-26
+819,Scott,Carlson,Marketing,San Francisco,61932.39,2021-02-28
+820,James,Zamora,Operations,Boston,124220.96,2023-03-23
+821,Todd,Pruitt,Operations,Austin,61277.21,2021-04-21
+822,Stephen,Wood,Marketing,Seattle,97114.7,2018-03-31
+823,Sarah,Smith,HR,San Francisco,59259.92,2025-10-29
+824,Scott,Roberts,HR,Austin,73933.33,2025-04-13
+825,Crystal,King,Sales,Seattle,48476.0,2019-08-16
+826,Erin,Sullivan,Admin,Austin,118301.06,2021-03-14
+827,Michael,Clayton,IT,San Francisco,57930.24,2021-04-16
+828,Brooke,Davis,IT,San Francisco,138129.69,2021-06-11
+829,Christopher,Carter,Admin,Austin,146865.74,2025-10-05
+830,Christopher,Sparks,Marketing,Austin,68012.04,2023-10-23
+831,James,Allen,IT,San Francisco,122785.2,2024-05-30
+832,Jimmy,Brown,Admin,Seattle,85672.39,2017-06-27
+833,Ryan,Edwards,IT,New York,56798.3,2024-05-04
+834,Logan,Morales,IT,New York,80034.9,2019-10-29
+835,Christopher,Reyes,Sales,Austin,147706.88,2017-05-02
+836,Veronica,Benson,HR,Boston,103446.7,2020-08-10
+837,Christine,Sawyer,Sales,Seattle,129829.93,2018-05-15
+838,Hannah,Nguyen,Marketing,Boston,125993.32,2026-04-28
+839,Katie,Morales,HR,Chicago,111793.14,2017-05-18
+840,Jennifer,Stephens,Finance,Austin,102116.41,2021-01-15
+841,Sarah,Rogers,Marketing,New York,125383.15,2024-02-26
+842,David,Colon,IT,Boston,104370.27,2023-09-17
+843,Jennifer,Ramirez,IT,Seattle,72580.37,2025-12-05
+844,Makayla,Dougherty,Sales,Boston,79627.24,2020-05-19
+845,Xavier,Lee,Operations,Seattle,115915.89,2018-05-09
+846,Gabriela,Bryant,Sales,Seattle,108412.13,2017-12-26
+847,Christopher,Banks,Admin,New York,95374.54,2017-07-28
+848,Timothy,Knox,Sales,Denver,47578.06,2017-08-11
+849,David,Chapman,Admin,Denver,98083.1,2022-07-24
+850,Amy,Newton,Operations,Denver,56875.64,2019-06-01
+851,Cory,Ferguson,Admin,San Francisco,122508.81,2018-04-06
+852,Mark,Mitchell,Operations,Denver,133569.04,2018-07-08
+853,Pedro,Burns,IT,San Francisco,51282.39,2020-05-17
+854,Tammy,Garza,Finance,Denver,64278.94,2022-05-08
+855,Susan,Arias,Admin,New York,79665.64,2018-09-09
+856,Ruben,Flynn,IT,Austin,55482.68,2018-06-29
+857,Joseph,Moore,Admin,Austin,45944.49,2025-08-31
+858,Andrea,Hogan,HR,Seattle,82522.32,2023-07-23
+859,Emily,Calhoun,Operations,Seattle,114088.77,2016-11-02
+860,Clifford,Miller,Admin,San Francisco,140694.92,2024-09-17
+861,Charles,Brennan,HR,Boston,142433.52,2017-02-27
+862,Thomas,Lewis,Finance,Boston,138705.18,2025-06-04
+863,Cory,Sellers,Admin,San Francisco,143441.55,2020-04-13
+864,Richard,Miller,Admin,New York,145206.45,2024-01-16
+865,Donna,Brock,Admin,San Francisco,133594.39,2020-03-19
+866,Steven,Smith,Sales,Denver,49382.91,2016-10-05
+867,Amber,Robbins,Sales,Chicago,57473.62,2016-08-08
+868,Jocelyn,Galvan,IT,San Francisco,137132.89,2023-09-17
+869,David,Smith,Marketing,San Francisco,48390.05,2021-12-29
+870,Jeffrey,Rose,Finance,San Francisco,100285.79,2019-11-13
+871,Dominic,Pennington,IT,Boston,111683.66,2022-02-14
+872,Nicole,Martin,Operations,San Francisco,98235.35,2022-11-20
+873,Sarah,Barnes,Finance,Seattle,124497.18,2018-02-02
+874,Briana,Evans,Operations,Denver,87469.14,2019-02-03
+875,Dana,Hill,HR,Austin,120755.11,2021-04-10
+876,Cynthia,Brown,Finance,Chicago,90596.9,2020-12-11
+877,Kathryn,West,IT,Austin,113889.6,2017-06-09
+878,Stacey,Watson,IT,Denver,92390.12,2017-03-16
+879,Stephanie,Nelson,Operations,San Francisco,149497.5,2022-03-22
+880,Jason,Brown,Sales,New York,53871.12,2021-07-01
+881,Leah,Thompson,Finance,Seattle,129330.94,2022-06-09
+882,Anne,Wolf,Admin,New York,73957.34,2018-02-13
+883,Ashley,Mayer,Sales,Denver,70179.51,2025-11-19
+884,Sarah,Cook,Marketing,New York,109809.11,2017-03-08
+885,Troy,Barron,Sales,Seattle,68241.18,2018-08-14
+886,Thomas,Harris,Finance,Boston,100796.64,2018-10-04
+887,Amy,Lyons,Finance,Boston,67838.18,2023-07-10
+888,Steven,Miller,Admin,San Francisco,49437.65,2020-10-21
+889,Gregory,Nelson,Marketing,Boston,87432.73,2020-10-17
+890,Russell,Brown,Sales,Denver,51422.1,2024-10-07
+891,Courtney,Watson,Sales,New York,126381.35,2018-06-08
+892,Amanda,Chan,HR,Boston,136458.77,2023-12-10
+893,Angela,Curry,Finance,New York,57547.22,2024-02-08
+894,Kenneth,Henderson,Operations,Austin,104286.14,2020-02-11
+895,Marcus,Gregory,Finance,Denver,129999.48,2025-02-28
+896,Loretta,Malone,Marketing,Denver,111028.91,2024-04-19
+897,Daniel,Thompson,HR,Chicago,118820.06,2022-08-26
+898,Raymond,Young,HR,Austin,62562.05,2017-07-12
+899,Lacey,Gates,Operations,Denver,118233.09,2023-03-24
+900,Brooke,Patel,Finance,San Francisco,129897.15,2025-05-24
+901,Kyle,Perez,IT,New York,120210.56,2023-08-03
+902,Noah,Coleman,Operations,San Francisco,133338.89,2017-09-13
+903,Kimberly,Stewart,IT,San Francisco,106691.45,2021-10-24
+904,Judy,Harris,HR,Seattle,148237.63,2017-12-14
+905,Nicole,Johnson,HR,New York,100842.37,2016-06-28
+906,Elizabeth,Green,Finance,Boston,44254.34,2017-09-04
+907,Jared,Perez,Admin,San Francisco,111075.46,2019-03-13
+908,Laura,Love,Admin,Chicago,93222.48,2025-03-07
+909,Emily,Levy,IT,Denver,109832.99,2019-04-29
+910,Daisy,Ryan,IT,Chicago,119927.58,2026-02-25
+911,Brenda,Keller,Finance,Boston,73694.62,2023-12-11
+912,Jill,Thomas,Marketing,New York,66595.49,2025-03-30
+913,Natasha,Page,Marketing,Seattle,135624.76,2026-03-30
+914,Eric,Anderson,Operations,Chicago,67077.8,2024-06-05
+915,David,Santos,Marketing,Seattle,134444.05,2018-09-17
+916,Melissa,Khan,Marketing,Denver,69630.87,2018-09-02
+917,Natasha,Hall,Operations,Austin,123125.34,2019-07-29
+918,Michael,Barrett,Sales,Boston,129459.6,2022-01-03
+919,Sarah,Neal,Admin,Denver,114746.15,2016-09-02
+920,Erin,Nguyen,HR,Boston,146287.94,2023-05-13
+921,Bradley,Ruiz,Marketing,Austin,103931.53,2025-06-06
+922,Susan,Valencia,IT,Austin,145992.17,2019-03-06
+923,Jesse,Gomez,IT,Seattle,112268.13,2025-05-10
+924,Katherine,Johnson,Finance,San Francisco,70963.52,2022-11-11
+925,Courtney,Robertson,Admin,Boston,146483.64,2018-09-05
+926,Andrew,Cain,Finance,Chicago,118671.1,2021-02-16
+927,Priscilla,Hines,Finance,San Francisco,128752.66,2024-09-13
+928,Amber,Jones,Finance,Seattle,137328.25,2024-12-29
+929,Seth,Carpenter,HR,New York,142772.33,2016-07-26
+930,Gerald,Jones,Finance,Chicago,117632.11,2020-07-21
+931,Frank,Conway,Marketing,Chicago,100488.13,2022-12-01
+932,Laura,Palmer,IT,Chicago,80688.38,2023-05-19
+933,Thomas,Bass,Admin,Boston,58251.68,2017-02-15
+934,Vanessa,Martin,HR,Austin,40881.51,2021-07-16
+935,Haley,Delacruz,IT,Seattle,92075.34,2021-07-05
+936,Julie,Hall,Admin,New York,106083.84,2024-10-26
+937,Krystal,Santos,Admin,New York,110456.51,2022-07-24
+938,Karen,Mclaughlin,Admin,Boston,82494.79,2025-08-20
+939,Ashley,Kelly,IT,San Francisco,79775.05,2018-09-26
+940,David,Kelly,Admin,Chicago,129371.0,2017-09-13
+941,Shawn,Cruz,Finance,Denver,129890.37,2026-03-25
+942,Anne,Reynolds,Finance,Austin,61528.76,2026-02-02
+943,Jennifer,Wood,IT,New York,122135.33,2017-05-18
+944,Jesse,Bradley,HR,San Francisco,55252.61,2019-12-07
+945,Ann,Lopez,Operations,Seattle,143248.84,2019-10-18
+946,Paul,Jones,Sales,Boston,48984.59,2023-03-30
+947,Melissa,Brown,Admin,Boston,114791.83,2019-07-14
+948,Anthony,Cherry,HR,Chicago,114595.8,2021-05-25
+949,Ronald,Miller,HR,Denver,49461.7,2017-11-20
+950,Christopher,Allen,Sales,Boston,73190.47,2024-05-14
+951,Chris,Moore,Admin,Boston,85196.88,2023-02-23
+952,Arthur,Elliott,Sales,Austin,57314.84,2023-01-04
+953,Brad,Hampton,Sales,San Francisco,78092.14,2020-11-13
+954,Francis,Collins,Finance,Boston,58312.92,2025-05-10
+955,Catherine,Reed,Sales,San Francisco,131565.29,2017-10-07
+956,Charles,Smith,HR,Chicago,98834.2,2026-01-24
+957,Andre,Tucker,Operations,Chicago,84681.2,2023-08-13
+958,Sharon,Miranda,Operations,Chicago,55320.75,2022-08-10
+959,Anna,King,HR,New York,53631.76,2017-08-11
+960,Victoria,Boyle,Admin,Seattle,102338.29,2016-11-19
+961,Jennifer,King,Admin,Denver,66704.93,2018-01-10
+962,Hunter,Lopez,Operations,New York,47825.92,2021-07-20
+963,Christopher,Ray,Finance,Chicago,102334.59,2021-03-03
+964,Scott,Stephens,Sales,Boston,124378.89,2018-09-15
+965,James,Sanchez,Marketing,Denver,145356.77,2022-07-29
+966,Anne,Williams,Finance,Austin,106469.33,2018-12-20
+967,Nathaniel,Huff,IT,Austin,76607.85,2020-01-23
+968,Patrick,Bond,HR,Chicago,51581.5,2023-04-30
+969,Becky,Wright,Admin,New York,131647.6,2018-11-10
+970,Audrey,Clark,Marketing,Denver,126753.93,2024-06-19
+971,Daniel,Wu,Finance,New York,140193.99,2019-02-05
+972,Kim,Matthews,Finance,Boston,134728.01,2024-02-04
+973,Lisa,Evans,Operations,Chicago,102654.08,2019-05-14
+974,Brandon,Sanchez,IT,San Francisco,91395.16,2018-07-30
+975,Melanie,Gomez,Admin,New York,120229.29,2018-07-02
+976,Robert,Velez,HR,Denver,140241.27,2022-05-20
+977,Natalie,Wilson,Finance,Seattle,95421.09,2020-12-25
+978,Chad,Abbott,HR,Denver,138778.72,2021-05-13
+979,Sonya,Clark,Marketing,Austin,73035.85,2016-10-13
+980,Karen,Ortega,Finance,San Francisco,65103.71,2024-05-23
+981,David,Stevens,Admin,San Francisco,118246.46,2022-05-05
+982,Donna,Crawford,Finance,Chicago,133441.51,2023-06-28
+983,Audrey,Snyder,IT,Denver,102880.71,2020-02-03
+984,Theresa,Jackson,Sales,Denver,132280.94,2019-06-10
+985,Michael,Taylor,Admin,Austin,124993.11,2023-02-27
+986,Jennifer,Simpson,Operations,Denver,60798.93,2018-12-30
+987,Nicole,Thomas,HR,San Francisco,101980.34,2017-12-16
+988,Donald,Carter,Marketing,San Francisco,70617.79,2025-11-19
+989,Jason,Fry,Admin,Denver,106951.2,2026-02-19
+990,Jonathan,Lee,Sales,Denver,92001.84,2018-01-07
+991,Jennifer,Benson,Sales,Austin,48535.92,2016-08-01
+992,Elizabeth,Richards,Admin,Austin,69008.68,2020-01-19
+993,Hunter,Mcconnell,Admin,Boston,54666.96,2024-05-22
+994,Jessica,Holt,IT,New York,62886.44,2019-07-14
+995,Sarah,Wyatt,IT,Boston,57997.52,2026-05-10
+996,James,Miller,Operations,Denver,141076.43,2024-08-11
+997,Christian,Moore,IT,Denver,113363.57,2025-05-26
+998,Robin,Mitchell,IT,New York,149488.79,2024-07-29
+999,Hannah,Nelson,Finance,Chicago,107145.31,2020-08-10
+1000,Janet,Hinton,Marketing,Seattle,77439.69,2020-04-24
