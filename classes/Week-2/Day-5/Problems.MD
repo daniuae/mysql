@@ -1,4 +1,202 @@
-# SQL Real World Problems (Questions 46-100)
+# SQL Real World Problems (Questions 1-100)
+
+## Beginner to Intermediate SQL
+
+### Q1
+
+Display all customers registered in the system.
+
+### Q2
+
+Retrieve customers from Mumbai.
+
+### Q3
+
+Find customers registered after January 1, 2024.
+
+### Q4
+
+Display products priced above ₹1,000.
+
+### Q5
+
+Find products belonging to the 'Brakes' category.
+
+### Q6
+
+Display orders placed during March 2024.
+
+### Q7
+
+Find customers whose names start with the letter 'P'.
+
+### Q8
+
+Display products that do not belong to the 'Electrical' category.
+
+### Q9
+
+Retrieve customers from Maharashtra or Gujarat.
+
+### Q10
+
+Find products containing the word 'Filter' in their name.
+
+---
+
+## Filtering and Sorting
+
+### Q11
+
+Display all orders sorted by order amount in descending order.
+
+### Q12
+
+Retrieve the top 10 highest-value orders.
+
+### Q13
+
+Find the 5 lowest-priced products.
+
+### Q14
+
+Display customers sorted by registration date.
+
+### Q15
+
+List employees sorted by salary in descending order.
+
+### Q16
+
+Display orders placed within a specified date range.
+
+### Q17
+
+Find employees earning between ₹50,000 and ₹100,000.
+
+### Q18
+
+Retrieve products with prices between ₹500 and ₹5,000.
+
+### Q19
+
+Display customers whose city name contains the letter 'a'.
+
+### Q20
+
+Find orders with amounts greater than ₹10,000.
+
+---
+
+# Aggregate Functions
+
+### Q21
+
+Calculate total sales revenue.
+
+### Q22
+
+Calculate average order value.
+
+### Q23
+
+Find the highest order amount.
+
+### Q24
+
+Find the lowest order amount.
+
+### Q25
+
+Calculate total number of customers by state.
+
+### Q26
+
+Calculate total sales per customer.
+
+### Q27
+
+Calculate total quantity sold per product.
+
+### Q28
+
+Find total revenue generated per product category.
+
+### Q29
+
+Calculate average salary by department.
+
+### Q30
+
+Find departments having more than 5 employees.
+
+---
+
+# GROUP BY and HAVING
+
+### Q31
+
+Find customer states with more than 10 registered customers.
+
+### Q32
+
+Find product categories generating revenue above ₹50,000.
+
+### Q33
+
+Identify customers whose total purchases exceed ₹100,000.
+
+### Q34
+
+Find products sold more than 100 times.
+
+### Q35
+
+Display departments whose average salary exceeds ₹75,000.
+
+### Q36
+
+Find months generating revenue above the annual monthly average.
+
+### Q37
+
+Identify suppliers supplying more than 10 products.
+
+### Q38
+
+Find stores managing inventory above 10,000 units.
+
+### Q39
+
+Calculate average inventory levels by product category.
+
+### Q40
+
+Identify cities generating the highest revenue.
+
+---
+
+# Joins
+
+### Q41
+
+Display customer names along with their order amounts.
+
+### Q42
+
+Find customers who have never placed an order.
+
+### Q43
+
+Display product names and total quantities sold.
+
+### Q44
+
+Find the top-selling product based on quantity sold.
+
+### Q45
+
+Display customer names, order IDs, payment modes, and payment amounts for all completed orders.
 
 ## Window Functions
 
