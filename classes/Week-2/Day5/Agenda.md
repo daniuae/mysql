@@ -1,310 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Daily Training Dashboard</title>
+# 📚 Data Engineering Training Program
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f6f9;
-        margin: 20px;
-        color: #333;
-    }
+Welcome to the Data Engineering Training Repository.
+---
+# 🎯 Learning Objectives
 
-    .container {
-        max-width: 1200px;
-        margin: auto;
-    }
+By the end of this program, trainees will be able to:
 
-    .header {
-        text-align: center;
-        background: #2c3e50;
-        color: white;
-        padding: 20px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
+* Write SQL queries confidently
+* Design relational databases
 
-    .section {
-        background: white;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 10px;
-        box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-    }
+---
 
-    .section h2 {
-        color: #2c3e50;
-        border-bottom: 2px solid #3498db;
-        padding-bottom: 10px;
-    }
+# 📅 Today's Session
 
-    ul {
-        padding-left: 20px;
-    }
+## Topic
 
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 10px;
-    }
+**Mock Test - Problems Discusstion**
 
-    table, th, td {
-        border: 1px solid #ddd;
-    }
+### Agenda
 
-    th {
-        background-color: #3498db;
-        color: white;
-    }
+| Duration | Activity              |
+| -------- | --------------------- |
+| 15 Min   | Revision              |
+| 45 Min   | Concept Discussion    |
+| 30 Min   | Hands-on Practice     |
+| 15 Min   | Quiz                  |
+| 15 Min   | Assignment Discussion |
 
-    th, td {
-        padding: 10px;
-        text-align: left;
-    }
+---
 
-    .card-container {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
+# 🔄 Revision
 
-    .card {
-        flex: 1;
-        min-width: 250px;
-        background: #ecf0f1;
-        padding: 15px;
-        border-radius: 8px;
-    }
+## Previously Covered Topics
 
-    .progress-bar {
-        width: 100%;
-        background-color: #ddd;
-        border-radius: 20px;
-        overflow: hidden;
-        margin-top: 5px;
-    }
+* SQL Basics
+* Joins
+* Aggregate Functions
+* Subqueries
+* Window Functions
 
-    .progress {
-        height: 20px;
-        background-color: #27ae60;
-        width: 0%;
-        text-align: center;
-        color: white;
-        font-size: 12px;
-        line-height: 20px;
-    }
+### Quick Review Questions
 
-    .quote {
-        text-align: center;
-        font-style: italic;
-        font-size: 18px;
-        color: #555;
-    }
+* What is the difference between WHERE and HAVING?
+* Explain INNER JOIN vs LEFT JOIN.
+* What is a Correlated Subquery?
+* What are Window Functions?
 
-    .emoji {
-        font-size: 24px;
-    }
-</style>
-</head>
+---
 
-<body>
+# 📖 Today's Notes
 
-<div class="container">
+## What is a CTE?
 
-    <div class="header">
-        <h1>📚 Daily Training Dashboard</h1>
-        <p>Learning • Practice • Growth</p>
-    </div>
+A Common Table Expression (CTE) is a temporary named result set that can be referenced within a SELECT, INSERT, UPDATE, or DELETE statement.
 
-    <!-- Revision -->
-    <div class="section">
-        <h2>🔄 Revision</h2>
+### Syntax
 
-        <div class="card-container">
-            <div class="card">
-                <h3>Topics to Revise</h3>
-                <ul>
-                    <li>SQL Joins</li>
-                    <li>Subqueries</li>
-                    <li>CTEs</li>
-                    <li>Window Functions</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <h3>Key Takeaways</h3>
-                <table>
-                    <tr>
-                        <th>Topic</th>
-                        <th>Summary</th>
-                    </tr>
-                    <tr>
-                        <td>Joins</td>
-                        <td>Combine data from multiple tables</td>
-                    </tr>
-                    <tr>
-                        <td>CTE</td>
-                        <td>Reusable temporary result set</td>
-                    </tr>
-                    <tr>
-                        <td>Window Functions</td>
-                        <td>Perform calculations across rows</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    <!-- Today's Topic -->
-    <div class="section">
-        <h2>🎯 Today's Topic</h2>
-
-        <h3>Advanced SQL - Common Table Expressions (CTE)</h3>
-
-        <ul>
-            <li>Understand CTE Syntax</li>
-            <li>Learn Recursive CTE</li>
-            <li>Compare CTE vs Subqueries</li>
-            <li>Solve Real-world Problems</li>
-        </ul>
-
-        <pre>
-WITH dept_salary AS (
-    SELECT dept_id,
-           AVG(salary) AS avg_salary
+```sql
+WITH department_salary AS
+(
+    SELECT
+        department_id,
+        AVG(salary) AS avg_salary
     FROM employees
-    GROUP BY dept_id
+    GROUP BY department_id
 )
-SELECT * FROM dept_salary;
-        </pre>
-    </div>
+SELECT *
+FROM department_salary;
+```
 
-    <!-- Problems -->
-    <div class="section">
-        <h2>🧩 Problems</h2>
+---
 
-        <h3>Beginner</h3>
-        <ul>
-            <li>Find highest salary in each department.</li>
-            <li>Find employees earning above department average.</li>
-        </ul>
+# 🧩 Practice Problems
 
-        <h3>Intermediate</h3>
-        <ul>
-            <li>Top 3 customers by sales.</li>
-            <li>Find duplicate records using CTE.</li>
-        </ul>
+## Beginner
 
-        <h3>Advanced</h3>
-        <ul>
-            <li>Employee-Manager Hierarchy using Recursive CTE.</li>
-            <li>Running Total using Window Functions.</li>
-        </ul>
+* Find the highest salary in each department.
+* Find employees earning above department average.
+* Find departments having more than 5 employees.
 
-        <h3>🏆 Challenge</h3>
-        <p>Build a query that returns the top-selling product for each month.</p>
-    </div>
+## Intermediate
 
-    <!-- Quiz -->
-    <div class="section">
-        <h2>❓ Quiz</h2>
+* Find Top 3 customers by sales.
 
-        <ol>
-            <li>
-                What does CTE stand for?
-                <ul>
-                    <li>Common Table Engine</li>
-                    <li><b>Common Table Expression</b></li>
-                    <li>Common Table Entry</li>
-                    <li>Common Type Expression</li>
-                </ul>
-            </li>
 
-            <li>
-                Which keyword defines a CTE?
-                <ul>
-                    <li>TEMP</li>
-                    <li>VIEW</li>
-                    <li><b>WITH</b></li>
-                    <li>CREATE</li>
-                </ul>
-            </li>
+## Advanced
 
-            <li>
-                Which CTE type is used for hierarchical data?
-                <ul>
-                    <li>Simple CTE</li>
-                    <li><b>Recursive CTE</b></li>
-                    <li>Nested CTE</li>
-                    <li>Materialized CTE</li>
-                </ul>
-            </li>
-        </ol>
-    </div>
+---
 
-    <!-- Events -->
-    <div class="section">
-        <h2>🏆 Events & Announcements</h2>
+# ❓ Quiz
 
-        <table>
-            <tr>
-                <th>Date</th>
-                <th>Event</th>
-            </tr>
-            <tr>
-                <td>10-Aug-2026</td>
-                <td>SQL Assessment</td>
-            </tr>
-            <tr>
-                <td>15-Aug-2026</td>
-                <td>Mock Interview</td>
-            </tr>
-            <tr>
-                <td>20-Aug-2026</td>
-                <td>Hackathon</td>
-            </tr>
-        </table>
-    </div>
+### Question 1
 
-    <!-- Progress Tracker -->
-    <div class="section">
-        <h2>📊 Progress Tracker</h2>
 
-        <p>Revision Completed</p>
-        <div class="progress-bar">
-            <div class="progress" style="width:75%">75%</div>
-        </div>
 
-        <p>Topic Coverage</p>
-        <div class="progress-bar">
-            <div class="progress" style="width:60%">60%</div>
-        </div>
+### Question 2
 
-        <p>Problems Solved</p>
-        <div class="progress-bar">
-            <div class="progress" style="width:40%">40%</div>
-        </div>
 
-        <p>Quiz Completion</p>
-        <div class="progress-bar">
-            <div class="progress" style="width:90%">90%</div>
-        </div>
-    </div>
 
-    <!-- Quote -->
-    <div class="section">
-        <h2>💡 Quote of the Day</h2>
+---
 
-        <div class="quote">
-            "Practice isn't the thing you do once you're good.
-            It's the thing you do that makes you good."
-        </div>
-    </div>
+# 🏆 Weekly Leaderboard
 
-</div>
+| Rank | Name      | Score |
+| ---- | --------- | ----- |
+| 🥇   | Trainee 1 | 95    |
+| 🥈   | Trainee 2 | 90    |
+| 🥉   | Trainee 3 | 88    |
 
-</body>
-</html>
+---
+
+# 📂 Repository Structure
+
+```text
+DataEngineeringTraining/
+│
+├── SQL/
+│   ├── Basics/
+│   ├── Joins/
+│   ├── CTE/
+│   └── WindowFunctions/
+│
+├── Python/
+│   ├── Basics/
+│   ├── Pandas/
+│   └── ETL/
+│
+├── DataModeling/
+│
+├── BigData/
+│   ├── Hadoop/
+│   ├── Hive/
+│   └── Spark/
+│
+├── Cloud/
+│   ├── AWS/
+│   ├── Azure/
+│   └── GCP/
+│
+├── Assignments/
+│
+├── Solutions/
+│
+└── README.md
+```
+
+---
+
+# 📊 Progress Tracker
+
+| Module           | Status |
+| ---------------- | ------ |
+| SQL Basics       | ✅      |
+| Joins            | ✅      |
+| Subqueries       | ✅      |
+| Window Functions | ✅      |
+| CTE              | 🟡     |
+| Data Modeling    | ⬜      |
+| Python           | ⬜      |
+| Spark            | ⬜      |
+
+---
+
+# 🎖️ Assignment
+
+Complete the following before the next session:
+
+1. Solve all Beginner Problems
+2. Solve any 2 Intermediate Problems
+3. Submit solutions in GitHub
+4. Attempt the Quiz
+
+---
+
+# 💡 Quote of the Day
+
+> "Learning is not attained by chance; it must be sought for with ardor and attended to with diligence."
+
+---
+
+# 🤝 Contribution Guidelines
+
+1. Create a feature branch.
+2. Commit your changes.
+3. Raise a Pull Request.
+4. Request review from mentors.
+
+---
+
+# 📞 Contact
+
+For questions or support:
+
+* Mentor: Dhandapani Yedappalli Krishnamurthi
+* Email: [daniyk2020@gmail.com](mailto:daniyk2020@gmail.com)
+* Teams/Slack Channel: #data-engineering-training
+
+---
+
+⭐ Happy Learning & Keep Practicing!
