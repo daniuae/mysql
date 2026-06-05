@@ -215,8 +215,8 @@ Complete the following before the next session:
 
 For questions or support:
 
-* Mentor: Your Name
-* Email: [your.email@example.com](mailto:your.email@example.com)
+* Mentor: Dhandapani Yedappalli Krishnamurthi
+* Email: [daniyk2020@gmail.com](mailto:daniyk2020@gmail.com)
 * Teams/Slack Channel: #data-engineering-training
 
 ---
