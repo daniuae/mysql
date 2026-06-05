@@ -1,0 +1,25 @@
+Questions on Single-Row Subqueries: 
+***********************************
+1.	Find the name of the employee with the highest salary.
+2.	List the details of the department where the employee with the minimum salary works.
+3.	Find the name of the employee who works in the department located in ‘NEW YORK’.
+4.	Find the salary of the employee named ‘SMITH’.
+5.	List the department name of the employee with employee number 7839.
+
+6.	Find the name and job title of the employee earning the same salary as the highest-paid employee in department 10.
+7.	Find the location of the department where ‘KING’ works.
+8.	Find the highest salary in the department where the employee ‘FORD’ works.
+9.	Retrieve the job title of the employee with the second-highest salary.
+10.	Find the name of the department with the lowest average salary.
+
+
+Questions on Multi-Row Subqueries: 
+***********************************
+
+1.	List the names of employees who work in departments located in ‘NEW YORK’ or ‘DALLAS’.
+2.	Retrieve the names of employees who work in the department with more than three employees.
+3.	Find the names of employees who have the same job as ‘KING’.
+4.	List the employees who earn more than any employee in department 10.
+5.	Retrieve the names of employees who earn less than the minimum salary of any department other than their own.
+6.	Find employees who earn a salary greater than the salary of all employees in department 30.
+7.	Retrieve the names of employees who work in departments with at least one employee earning more than 3000.

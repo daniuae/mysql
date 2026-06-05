@@ -1,0 +1,113 @@
+Hands-On Joins:
+**************
+
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    customer_name VARCHAR(50),
+    city VARCHAR(50)
+);
+
+CREATE TABLE products (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(50),
+    category VARCHAR(50)
+);
+
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    customer_id INT,
+    order_date DATE,
+    total_amount DECIMAL(10,2),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE order_items (
+    item_id INT PRIMARY KEY,
+    order_id INT,
+    product_id INT,
+    quantity INT,
+    price DECIMAL(10,2),
+    FOREIGN KEY (order_id) REFERENCES orders(order_id),
+    FOREIGN KEY (product_id) REFERENCES products(product_id)
+);
+
+INSERT SAMPLE DATA SCRIPT:
+*************************
+
+INSERT INTO customers VALUES
+(1,'Arun','Chennai'),
+(2,'Karthik','Bangalore'),
+(3,'Meena','Hyderabad'),
+(4,'Ravi','Chennai'),
+(5,'Divya','Bangalore');
+
+INSERT INTO products VALUES
+(101,'Laptop','Electronics'),
+(102,'Mouse','Electronics'),
+(103,'Table','Furniture'),
+(104,'Chair','Furniture'),
+(105,'T-shirt','Clothing');
+
+INSERT INTO orders VALUES
+(201,1,'2025-01-05',50000),
+(202,1,'2025-02-01',1200),
+(203,2,'2025-01-15',1800),
+(204,2,'2025-03-10',20000),
+(205,3,'2024-12-20',450),
+(206,3,'2025-02-05',350),
+(207,4,'2025-03-01',900),
+(208,5,'2024-11-10',300),
+(209,5,'2025-02-15',700);
+
+INSERT INTO order_items VALUES
+(1,201,101,1,50000),
+(2,202,102,2,600),
+(3,203,102,3,600),
+(4,204,101,1,20000),
+(5,205,105,3,150),
+(6,206,102,1,350),
+(7,207,104,2,450),
+(8,208,105,2,150),
+(9,209,103,1,700);
+
+Hands-On Queries:
+*****************
+
+Q1 — Customers with total purchase amount in last 30 days (min 2 orders)
+
+Q2 — Top 5 customers by total order value (current year)
+
+Q3 — Total quantity sold per category (previous month)
+
+Q4 — First/Last order date per customer (gap > 90 days)
+
+Q5 — Products with above-average revenue (current quarter)
+
+Q6 — Customers who did NOT order in last 60 days but ordered in 2024
+
+Q7 — Monthly sales summary per customer
+
+Advanced - But just you can give a TRY:
+**********************************
+
+Q8 — Top-selling product (qty) in each category for previous year
+
+Q9 — Customers where max order value > avg order value
+
+Q10 — Total revenue per city (only where ≥ 5 customers ordered in last 6 months)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
