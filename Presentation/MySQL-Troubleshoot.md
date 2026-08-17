@@ -488,3 +488,194 @@ mysql -u root -p
 ```
 
 I can tell you the exact next command without resetting or reinstalling your MySQL server.
+
+
+
+
+
+
+# Fixing MySQL Error 1045 (Access Denied for `root@localhost`)
+
+If you're seeing the following error:
+
+```text
+ERROR 1045 (28000): Access denied for user 'root'@'localhost'
+(using password: NO)
+```
+
+follow these steps carefully.
+
+> **Note:** These steps are intended for Ubuntu or WSL installations of MySQL.
+
+---
+
+# Step 1: Check MySQL Service Status
+
+Check whether the MySQL service is running.
+
+```bash
+sudo service mysql status
+```
+
+### If MySQL is Running
+
+Proceed to **Step 2**.
+
+### If MySQL is Stopped
+
+Start the service:
+
+```bash
+sudo service mysql start
+```
+
+Verify that it is running:
+
+```bash
+sudo service mysql status
+```
+
+---
+
+# Step 2: Stop the MySQL Service
+
+Stop MySQL before starting it in recovery mode.
+
+```bash
+sudo service mysql stop
+```
+
+Verify that it has stopped:
+
+```bash
+sudo service mysql status
+```
+
+Expected output:
+
+```text
+mysql is not running
+```
+
+---
+
+# Step 3: Start MySQL in Recovery Mode
+
+Start MySQL without loading the privilege tables.
+
+```bash
+sudo mysqld_safe --skip-grant-tables --skip-networking &
+```
+
+Wait **5–10 seconds**.
+
+You may see several startup messages. This is normal.
+
+Now try logging in:
+
+```bash
+sudo mysql
+```
+
+If successful, you should see:
+
+```text
+mysql>
+```
+
+---
+
+# Step 4: Refresh Privileges
+
+Inside the MySQL prompt, run:
+
+```sql
+FLUSH PRIVILEGES;
+```
+
+---
+
+# Step 5: Check the Root Authentication Plugin
+
+Run the following SQL command:
+
+```sql
+SELECT user,
+       host,
+       plugin
+FROM mysql.user
+WHERE user = 'root';
+```
+
+Example output:
+
+```text
++------+-----------+-----------------------+
+| user | host      | plugin                |
++------+-----------+-----------------------+
+| root | localhost | auth_socket           |
++------+-----------+-----------------------+
+```
+
+or
+
+```text
++------+-----------+-----------------------+
+| user | host      | plugin                |
++------+-----------+-----------------------+
+| root | localhost | caching_sha2_password |
++------+-----------+-----------------------+
+```
+
+---
+
+# Stop Here
+
+**Do not change the root password yet.**
+
+The next step depends on the authentication plugin currently assigned to the `root` account.
+
+Please copy and paste the output of:
+
+```sql
+SELECT user,
+       host,
+       plugin
+FROM mysql.user
+WHERE user = 'root';
+```
+
+Based on the result, we can determine the correct authentication method (`auth_socket`, `mysql_native_password`, `caching_sha2_password`, or another plugin) and safely configure the `root` account.
+
+---
+
+# If `mysqld_safe` Fails
+
+If the following command:
+
+```bash
+sudo mysqld_safe --skip-grant-tables --skip-networking &
+```
+
+returns an error, copy and paste the complete error message.
+
+That will help determine whether the issue is related to:
+
+- MySQL not being installed correctly
+- Incorrect data directory permissions
+- A corrupted MySQL configuration
+- Another MySQL startup problem
+
+Once the exact error is available, the next troubleshooting step can be identified without reinstalling MySQL.
+
+---
+
+# Summary
+
+1. Check whether MySQL is running.
+2. Stop the MySQL service.
+3. Start MySQL in recovery mode using `mysqld_safe`.
+4. Log in using `sudo mysql`.
+5. Run `FLUSH PRIVILEGES;`.
+6. Check the `root` authentication plugin.
+7. Share the output before making any changes to the `root` account.
